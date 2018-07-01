@@ -16,5 +16,5 @@ class MainViewModel : MainViewModelDelegate{
     var name: String = "aa"
     // 위에 없는 기능
     var ej : String = "으아아아아"
-    
+    var dummy : String = "테스트으으으"
 }

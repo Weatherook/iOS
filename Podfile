@@ -12,4 +12,8 @@ target 'Weatherook' do
   pod 'Kingfisher'
   pod 'Then'
   pod 'Toast'
+  pod 'Hero'
+  pod 'Swinject'
+  pod 'SwinjectStoryboard'
+  pod 'SwinjectAutoregistration'
 end

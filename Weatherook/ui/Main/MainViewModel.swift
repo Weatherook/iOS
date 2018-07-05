@@ -18,3 +18,4 @@ class MainViewModel : MainViewModelDelegate{
     var ej : String = "으아아아아"
     var dummy : String = "테스트으으으"
 }
+

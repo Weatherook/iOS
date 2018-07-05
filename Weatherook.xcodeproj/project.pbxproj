@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		2741C679590E3573F3CA6052 /* Pods_Weatherook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207AC513564BAE4DE67FB2D6 /* Pods_Weatherook.framework */; };
+		2FA9C0AB20EE02F9005DF55E /* ViewControllerInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0AA20EE02F9005DF55E /* ViewControllerInjector.swift */; };
+		2FA9C0B120EE05C5005DF55E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0B020EE05C5005DF55E /* LoginViewModel.swift */; };
+		2FA9C0B320EE05D1005DF55E /* LoginViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0B220EE05D1005DF55E /* LoginViewModeling.swift */; };
+		2FA9C0B520EE060A005DF55E /* SignupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0B420EE060A005DF55E /* SignupModel.swift */; };
+		2FA9C0B720EE0615005DF55E /* SignupModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0B620EE0615005DF55E /* SignupModeling.swift */; };
+		2FA9C0B920EE061D005DF55E /* AgeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0B820EE061D005DF55E /* AgeViewModel.swift */; };
+		2FA9C0BB20EE062F005DF55E /* AgeViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0BA20EE062F005DF55E /* AgeViewModeling.swift */; };
+		2FA9C0BE20EE063E005DF55E /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0BD20EE063E005DF55E /* CharacterViewModel.swift */; };
+		2FA9C0C020EE064D005DF55E /* CharacterViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0BF20EE064D005DF55E /* CharacterViewModeling.swift */; };
 		2FE6A6BA20E8953000E1C9EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6A6B920E8953000E1C9EE /* AppDelegate.swift */; };
 		2FE6A6BF20E8953000E1C9EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE6A6BD20E8953000E1C9EE /* Main.storyboard */; };
 		2FE6A6C120E8953100E1C9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE6A6C020E8953100E1C9EE /* Assets.xcassets */; };
@@ -29,8 +38,8 @@
 		7C60275920E9FB0D0010AF12 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60275820E9FB0D0010AF12 /* MainViewController.swift */; };
 		7C60275C20E9FBD00010AF12 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60275B20E9FBD00010AF12 /* LoginViewController.swift */; };
 		7C94DF4920EA3BDA00D23199 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94DF4820EA3BDA00D23199 /* SignupViewController.swift */; };
-		7C94DF4B20EB717B00D23199 /* Signup2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94DF4A20EB717B00D23199 /* Signup2ViewController.swift */; };
-		7C94DF4D20EB7BC900D23199 /* Signup3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94DF4C20EB7BC900D23199 /* Signup3ViewController.swift */; };
+		7C94DF4B20EB717B00D23199 /* AgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94DF4A20EB717B00D23199 /* AgeViewController.swift */; };
+		7C94DF4D20EB7BC900D23199 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94DF4C20EB7BC900D23199 /* CharacterViewController.swift */; };
 		7C94DF4F20EBD67E00D23199 /* MypageSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94DF4E20EBD67E00D23199 /* MypageSettingViewController.swift */; };
 		7C94DF5120EC607D00D23199 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94DF5020EC607D00D23199 /* NewsTableViewController.swift */; };
 		7C94DF5320EC60A400D23199 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94DF5220EC60A400D23199 /* NewsTableViewCell.swift */; };
@@ -40,6 +49,15 @@
 /* Begin PBXFileReference section */
 		207AC513564BAE4DE67FB2D6 /* Pods_Weatherook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weatherook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E109C6847993D4B974BA9E6 /* Pods-Weatherook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weatherook.release.xcconfig"; path = "Pods/Target Support Files/Pods-Weatherook/Pods-Weatherook.release.xcconfig"; sourceTree = "<group>"; };
+		2FA9C0AA20EE02F9005DF55E /* ViewControllerInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerInjector.swift; sourceTree = SOURCE_ROOT; };
+		2FA9C0B020EE05C5005DF55E /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		2FA9C0B220EE05D1005DF55E /* LoginViewModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModeling.swift; sourceTree = "<group>"; };
+		2FA9C0B420EE060A005DF55E /* SignupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupModel.swift; sourceTree = "<group>"; };
+		2FA9C0B620EE0615005DF55E /* SignupModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupModeling.swift; sourceTree = "<group>"; };
+		2FA9C0B820EE061D005DF55E /* AgeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeViewModel.swift; sourceTree = "<group>"; };
+		2FA9C0BA20EE062F005DF55E /* AgeViewModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeViewModeling.swift; sourceTree = "<group>"; };
+		2FA9C0BD20EE063E005DF55E /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
+		2FA9C0BF20EE064D005DF55E /* CharacterViewModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModeling.swift; sourceTree = "<group>"; };
 		2FE6A6B620E8953000E1C9EE /* Weatherook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weatherook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE6A6B920E8953000E1C9EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FE6A6BE20E8953000E1C9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,8 +82,8 @@
 		7C60275820E9FB0D0010AF12 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7C60275B20E9FBD00010AF12 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7C94DF4820EA3BDA00D23199 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
-		7C94DF4A20EB717B00D23199 /* Signup2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup2ViewController.swift; sourceTree = "<group>"; };
-		7C94DF4C20EB7BC900D23199 /* Signup3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup3ViewController.swift; sourceTree = "<group>"; };
+		7C94DF4A20EB717B00D23199 /* AgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeViewController.swift; sourceTree = "<group>"; };
+		7C94DF4C20EB7BC900D23199 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
 		7C94DF4E20EBD67E00D23199 /* MypageSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageSettingViewController.swift; sourceTree = "<group>"; };
 		7C94DF5020EC607D00D23199 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 		7C94DF5220EC60A400D23199 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
@@ -90,6 +108,64 @@
 				207AC513564BAE4DE67FB2D6 /* Pods_Weatherook.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FA9C0AC20EE039E005DF55E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7C60275B20E9FBD00010AF12 /* LoginViewController.swift */,
+				2FA9C0B020EE05C5005DF55E /* LoginViewModel.swift */,
+				2FA9C0B220EE05D1005DF55E /* LoginViewModeling.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2FA9C0AD20EE03C0005DF55E /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				7C94DF4C20EB7BC900D23199 /* CharacterViewController.swift */,
+				2FA9C0BD20EE063E005DF55E /* CharacterViewModel.swift */,
+				2FA9C0BF20EE064D005DF55E /* CharacterViewModeling.swift */,
+			);
+			path = Character;
+			sourceTree = "<group>";
+		};
+		2FA9C0AE20EE03D3005DF55E /* Age */ = {
+			isa = PBXGroup;
+			children = (
+				7C94DF4A20EB717B00D23199 /* AgeViewController.swift */,
+				2FA9C0B820EE061D005DF55E /* AgeViewModel.swift */,
+				2FA9C0BA20EE062F005DF55E /* AgeViewModeling.swift */,
+			);
+			path = Age;
+			sourceTree = "<group>";
+		};
+		2FA9C0AF20EE03F1005DF55E /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				7C94DF4820EA3BDA00D23199 /* SignupViewController.swift */,
+				2FA9C0B420EE060A005DF55E /* SignupModel.swift */,
+				2FA9C0B620EE0615005DF55E /* SignupModeling.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		2FA9C0C120EE07EE005DF55E /* module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		2FA9C0C220EE0807005DF55E /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				2FA9C0AF20EE03F1005DF55E /* Signup */,
+				2FA9C0AE20EE03D3005DF55E /* Age */,
+				2FA9C0AD20EE03C0005DF55E /* Character */,
+			);
+			name = Signup;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		2FE6A6AD20E8953000E1C9EE = {
@@ -220,10 +296,8 @@
 		7C60275A20E9FBBF0010AF12 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				7C60275B20E9FBD00010AF12 /* LoginViewController.swift */,
-				7C94DF4820EA3BDA00D23199 /* SignupViewController.swift */,
-				7C94DF4A20EB717B00D23199 /* Signup2ViewController.swift */,
-				7C94DF4C20EB7BC900D23199 /* Signup3ViewController.swift */,
+				2FA9C0C220EE0807005DF55E /* Signup */,
+				2FA9C0AC20EE039E005DF55E /* Login */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -231,6 +305,8 @@
 		7C94DF4520EA0F7A00D23199 /* di */ = {
 			isa = PBXGroup;
 			children = (
+				2FA9C0C120EE07EE005DF55E /* module */,
+				2FA9C0AA20EE02F9005DF55E /* ViewControllerInjector.swift */,
 			);
 			path = di;
 			sourceTree = "<group>";
@@ -377,10 +453,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA9C0B920EE061D005DF55E /* AgeViewModel.swift in Sources */,
+				2FA9C0C020EE064D005DF55E /* CharacterViewModeling.swift in Sources */,
 				7C60275C20E9FBD00010AF12 /* LoginViewController.swift in Sources */,
 				7C60275320E9F2A40010AF12 /* WriteViewController.swift in Sources */,
-				7C94DF4D20EB7BC900D23199 /* Signup3ViewController.swift in Sources */,
+				7C94DF4D20EB7BC900D23199 /* CharacterViewController.swift in Sources */,
 				7C94DF4920EA3BDA00D23199 /* SignupViewController.swift in Sources */,
+				2FA9C0BE20EE063E005DF55E /* CharacterViewModel.swift in Sources */,
 				7C245F0920ED30430070E178 /* MainTableViewController.swift in Sources */,
 				7C60275120E9F2970010AF12 /* SearchViewController.swift in Sources */,
 				2FE6A6BA20E8953000E1C9EE /* AppDelegate.swift in Sources */,
@@ -388,14 +467,20 @@
 				2FE6A6D020E8A5E300E1C9EE /* MainViewModelDelegate.swift in Sources */,
 				7C245F0D20ED30C60070E178 /* MainboardTableViewCell.swift in Sources */,
 				7C94DF5320EC60A400D23199 /* NewsTableViewCell.swift in Sources */,
+				2FA9C0B320EE05D1005DF55E /* LoginViewModeling.swift in Sources */,
 				7C94DF4F20EBD67E00D23199 /* MypageSettingViewController.swift in Sources */,
+				2FA9C0AB20EE02F9005DF55E /* ViewControllerInjector.swift in Sources */,
+				2FA9C0BB20EE062F005DF55E /* AgeViewModeling.swift in Sources */,
 				7C245F1120ED34EB0070E178 /* MainRecommendCollectionViewCell.swift in Sources */,
 				7C245F0B20ED30760070E178 /* MainTableViewHeaderCell.swift in Sources */,
 				7C94DF5520EC74D400D23199 /* MypageSettingTableViewController.swift in Sources */,
 				2FE6A6CE20E89EA200E1C9EE /* MainViewModel.swift in Sources */,
-				7C94DF4B20EB717B00D23199 /* Signup2ViewController.swift in Sources */,
+				7C94DF4B20EB717B00D23199 /* AgeViewController.swift in Sources */,
 				7C60275720E9F2B30010AF12 /* MypageViewController.swift in Sources */,
+				2FA9C0B720EE0615005DF55E /* SignupModeling.swift in Sources */,
+				2FA9C0B520EE060A005DF55E /* SignupModel.swift in Sources */,
 				7C60275920E9FB0D0010AF12 /* MainViewController.swift in Sources */,
+				2FA9C0B120EE05C5005DF55E /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,7 +628,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z362WAX4AX;
 				INFOPLIST_FILE = Weatherook/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Single.Weatherook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -559,7 +647,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z362WAX4AX;
 				INFOPLIST_FILE = Weatherook/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Single.Weatherook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

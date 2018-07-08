@@ -18,15 +18,12 @@ class SignupScrollViewController: UIViewController {
     @IBOutlet weak var scrollview: UIScrollView!
     @IBOutlet weak var pageControll: UIPageControl!
     
-    var signupSlide : SignupView?
-    var characterSlide : CharacterView?
-    var ageSlide : AgeView?
+    var model : SignupScrollViewModeling?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         scrollview.delegate = self
-        let slides : [UIView] = createSlides()
-        setupSlideScrollView(slides: slides)
+        setupSlideScrollView(slides: (model?.viewList)!)
         bind()
         
         // Do any additional setup after loading the view.
@@ -37,43 +34,19 @@ class SignupScrollViewController: UIViewController {
 
 extension SignupScrollViewController {
     func bind(){
-//         let id = signupSlide?.txtSignupId.rx.text.asObservable(),
-//         let ps = signupSlide?.txtSignupPs.rx.text.distinctUntilChanged(),
-//         let pscf = signupSlide?.txtSignupPscf.rx.text.distinctUntilChanged(),
-//         let ht = characterSlide?.txtSignupHeight.rx.text.distinctUntilChanged(),
-//         let wt = characterSlide?.txtSingupWeight.rx.text.distinctUntilChanged(),
-//         let age = ageSlide?.txtSignupAge.rx.text.distinctUntilChanged()
-       
-//        Observable.combineLatest(signupSlide?.txtSignupId.rx.text.asObservable(),
-//                                                                  signupSlide?.txtSignupPs.rx.text.asObservable(),
-//                                         signupSlide?.txtSignupPscf.rx.text.asObservable(),
-//                                         characterSlide?.txtSignupHeight.rx.text.asObservable(),
-//                                         characterSlide?.txtSingupWeight.rx.text,
-//                                         ageSlide?.txtSignupAge.rx.text)
-//        Observable.combineLatest(temp[0],temp[1],temp[2]){ (a,b,c) in (a,b) }.subscribe{
-//
-//            Observable.combineLatest(temp[0], temp[1], temp[2], resultSelector: { (a1, a2, a3) in
-//                return (a1,a2,a3)
-//            })
-//        }
-//                                 signupSlide?.txtSignupId.rx.text.distinctUntilChanged(),
-//                                 signupSlide?.txtSignupPs.rx.text,
-//                                 signupSlide?.txtSignupPscf.rx.text,
-//                                 characterSlide?.txtSignupHeight.rx.text,
-//                                 characterSlide?.txtSingupWeight.rx.text,
-//                                 ageSlide?.txtSignupAge.rx.text){
-//                                    ($0,$1,$2,$3,$4,$5,$6)}
+        let _ = model?.obs.subscribe{ [weak self] event in
+                guard let tuple = event.element else {
+                    return
+                }
+                print(tuple)
+        }
+        
+        
     }
 }
 
 // 스크롤뷰와 페이징 관련
 extension SignupScrollViewController {
-    func createSlides() -> [UIView] {
-        signupSlide = Bundle.main.loadNibNamed("SignupView", owner: self, options: nil)![0] as! SignupView
-        characterSlide = Bundle.main.loadNibNamed("CharacterView", owner: self, options: nil)![0] as! CharacterView
-        ageSlide =  Bundle.main.loadNibNamed("AgeView", owner: self, options: nil)![0] as! AgeView
-        return [signupSlide!,characterSlide!,ageSlide!]
-    }
     
     func setupSlideScrollView(slides : [UIView]){
         scrollview.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height)

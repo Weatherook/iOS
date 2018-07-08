@@ -17,11 +17,8 @@ class CharacterView: UIView {
     @IBOutlet weak var imgSingupWoman: UIImageView!
     @IBOutlet weak var imgSignupMan: UIImageView!
     
-    func getCharRx() -> Observable<(String?,String?)>{
-        let temp =  Observable.combineLatest(txtSignupHeight.rx.text.asObservable(),
-                                             txtSingupWeight.rx.text.asObservable()
-        ){($0,$1)}
-        return temp
+    func getCharRx() -> (Observable<String?>,Observable<String?>){
+        return  (txtSignupHeight.rx.text.asObservable(),txtSingupWeight.rx.text.asObservable())
     }
     
 

@@ -16,16 +16,13 @@ import SwinjectStoryboard
 
 extension SwinjectStoryboard{
     @objc class func setup() {
-//        defaultContainer.storyboardInitCompleted(MainViewController.self) { r, c in
-//            c.str = r.resolve(StringTestDelegate.self)
-//            print(r.resolve(StringTestDelegate.self)?.str)
-//        }
-//        defaultContainer.storyboardInitCompleted(StartViewController.self) { r,c in
-//            c.str = r~>
-//        }
-//        defaultContainer.autoregister(StringTestDelegate.self, initializer: StringModel.init)
+        
+        defaultContainer.autoregister(SignupScrollViewModeling.self, initializer: SignupScrollViewModel.init)
+        
+        defaultContainer.storyboardInitCompleted(SignupScrollViewController.self) { (r, c) in c.model = r~> }
         
     }
 }
+
 
 

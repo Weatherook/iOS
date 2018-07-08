@@ -14,7 +14,7 @@ class AgeView: UIView {
     @IBOutlet weak var txtSignupAge: UITextField!
     
     func getAgeRx() -> Observable<String?>{
-        let temp = txtSignupAge.rx.text.asObservable()
-        return temp    }
+        return txtSignupAge.rx.text.asObservable()
+    }
 }
 

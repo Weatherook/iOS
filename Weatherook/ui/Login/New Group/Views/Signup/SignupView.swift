@@ -13,11 +13,11 @@ class SignupView: UIView {
     @IBOutlet weak var txtSignupId: UITextField!
     @IBOutlet weak var txtSignupPs: UITextField!
     @IBOutlet weak var txtSignupPscf: UITextField!
-    func getSignUpRx() -> Observable<(String?,String?,String?)>{
-        let temp =  Observable.combineLatest(txtSignupId.rx.text.asObservable(),
-                                 txtSignupPs.rx.text.asObservable(),
-                                 txtSignupPscf.rx.text.asObservable()){($0,$1,$2)}
-        return temp
+    func getSignUpRx() -> (Observable<String?>,Observable<String?>,Observable<String?>){
+       
+        return (txtSignupId.rx.text.asObservable(),
+                 txtSignupPs.rx.text.asObservable(),
+                 txtSignupPscf.rx.text.asObservable())
     }
 
 }

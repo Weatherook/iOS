@@ -175,16 +175,16 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		2FBA167A20F344A600F82F98 /* Api */ = {
+		2FBA167A20F344A600F82F98 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				2FBA169820F360F800F82F98 /* Network */,
+				2FBA169820F360F800F82F98 /* Api */,
 				2FBA168520F34BF000F82F98 /* Extension */,
 				2FBA167C20F344CC00F82F98 /* Protocol */,
 				2FBA167B20F344AE00F82F98 /* model */,
 				2FBA167E20F3488E00F82F98 /* BoardAPI.swift */,
 			);
-			path = Api;
+			path = Network;
 			sourceTree = "<group>";
 		};
 		2FBA167B20F344AE00F82F98 /* model */ = {
@@ -244,11 +244,11 @@
 			path = EventDriver;
 			sourceTree = "<group>";
 		};
-		2FBA169820F360F800F82F98 /* Network */ = {
+		2FBA169820F360F800F82F98 /* Api */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Network;
+			path = Api;
 			sourceTree = "<group>";
 		};
 		2FE6A6AD20E8953000E1C9EE = {
@@ -274,7 +274,7 @@
 			children = (
 				2FBA168620F34F1A00F82F98 /* EventDriver */,
 				2FBA168220F3493B00F82F98 /* Const */,
-				2FBA167A20F344A600F82F98 /* Api */,
+				2FBA167A20F344A600F82F98 /* Network */,
 				7C94DF4520EA0F7A00D23199 /* DependencyInjection */,
 				2FE6A6D120E8A62000E1C9EE /* storyboard */,
 				2FE6A6CB20E89E6C00E1C9EE /* UserInterface */,

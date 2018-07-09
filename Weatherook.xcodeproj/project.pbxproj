@@ -51,6 +51,7 @@
 		7C94DF5120EC607D00D23199 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94DF5020EC607D00D23199 /* NewsTableViewController.swift */; };
 		7C94DF5320EC60A400D23199 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94DF5220EC60A400D23199 /* NewsTableViewCell.swift */; };
 		7C94DF5520EC74D400D23199 /* MypageSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94DF5420EC74D400D23199 /* MypageSettingTableViewController.swift */; };
+		7CE1D29E20F3365B00E0C40E /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE1D29D20F3365B00E0C40E /* Test.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -102,6 +103,7 @@
 		7C94DF5020EC607D00D23199 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 		7C94DF5220EC60A400D23199 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		7C94DF5420EC74D400D23199 /* MypageSettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageSettingTableViewController.swift; sourceTree = "<group>"; };
+		7CE1D29D20F3365B00E0C40E /* Test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,6 +315,7 @@
 				7C60274520E9E6690010AF12 /* WriteSB.storyboard */,
 				7C60274720E9E6740010AF12 /* NewsSB.storyboard */,
 				7C60274920E9E67F0010AF12 /* MypageSB.storyboard */,
+				7CE1D29D20F3365B00E0C40E /* Test.storyboard */,
 			);
 			path = storyboard;
 			sourceTree = "<group>";
@@ -453,6 +456,7 @@
 				7C60274A20E9E67F0010AF12 /* MypageSB.storyboard in Resources */,
 				7C60274620E9E6690010AF12 /* WriteSB.storyboard in Resources */,
 				7C60274420E9E6540010AF12 /* SearchSB.storyboard in Resources */,
+				7CE1D29E20F3365B00E0C40E /* Test.storyboard in Resources */,
 				2F5806A720EE18E20064A3AC /* CharacterView.xib in Resources */,
 				2F5806AB20EE19060064A3AC /* SignupView.xib in Resources */,
 				2FE6A6D320E8A65700E1C9EE /* MainStory.storyboard in Resources */,

@@ -126,14 +126,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2F5806AC20EE37CA0064A3AC /* view */ = {
+		2F5806AC20EE37CA0064A3AC /* View */ = {
 			isa = PBXGroup;
 			children = (
 				2F5806AA20EE19060064A3AC /* SignupView.xib */,
 				2F5806A620EE18E20064A3AC /* CharacterView.xib */,
 				2F5806A820EE18F90064A3AC /* AgeView.xib */,
 			);
-			path = view;
+			path = View;
 			sourceTree = "<group>";
 		};
 		2FA9C0AC20EE039E005DF55E /* Login */ = {
@@ -146,11 +146,11 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		2FA9C0C120EE07EE005DF55E /* module */ = {
+		2FA9C0C120EE07EE005DF55E /* Module */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = module;
+			path = Module;
 			sourceTree = "<group>";
 		};
 		2FA9C0C220EE0807005DF55E /* SignUpScroll */ = {
@@ -181,17 +181,17 @@
 				2FBA169820F360F800F82F98 /* Api */,
 				2FBA168520F34BF000F82F98 /* Extension */,
 				2FBA167C20F344CC00F82F98 /* Protocol */,
-				2FBA167B20F344AE00F82F98 /* model */,
+				2FBA167B20F344AE00F82F98 /* Model */,
 				2FBA167E20F3488E00F82F98 /* BoardAPI.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
 		};
-		2FBA167B20F344AE00F82F98 /* model */ = {
+		2FBA167B20F344AE00F82F98 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		2FBA167C20F344CC00F82F98 /* Protocol */ = {
@@ -276,7 +276,7 @@
 				2FBA168220F3493B00F82F98 /* Const */,
 				2FBA167A20F344A600F82F98 /* Network */,
 				7C94DF4520EA0F7A00D23199 /* DependencyInjection */,
-				2FE6A6D120E8A62000E1C9EE /* storyboard */,
+				2FE6A6D120E8A62000E1C9EE /* Storyboard */,
 				2FE6A6CB20E89E6C00E1C9EE /* UserInterface */,
 				2FE6A6B920E8953000E1C9EE /* AppDelegate.swift */,
 				2FE6A6BD20E8953000E1C9EE /* Main.storyboard */,
@@ -314,10 +314,10 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		2FE6A6D120E8A62000E1C9EE /* storyboard */ = {
+		2FE6A6D120E8A62000E1C9EE /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				2F5806AC20EE37CA0064A3AC /* view */,
+				2F5806AC20EE37CA0064A3AC /* View */,
 				2FE6A6D220E8A65700E1C9EE /* MainStory.storyboard */,
 				7C60274320E9E6540010AF12 /* SearchSB.storyboard */,
 				7C60274520E9E6690010AF12 /* WriteSB.storyboard */,
@@ -325,7 +325,7 @@
 				7C60274920E9E67F0010AF12 /* MypageSB.storyboard */,
 				7CE1D29D20F3365B00E0C40E /* Test.storyboard */,
 			);
-			path = storyboard;
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 		4227EB1ECA59AF0B85BB4557 /* Pods */ = {
@@ -392,7 +392,7 @@
 		7C94DF4520EA0F7A00D23199 /* DependencyInjection */ = {
 			isa = PBXGroup;
 			children = (
-				2FA9C0C120EE07EE005DF55E /* module */,
+				2FA9C0C120EE07EE005DF55E /* Module */,
 				2FA9C0AA20EE02F9005DF55E /* ViewControllerInjector.swift */,
 			);
 			path = DependencyInjection;

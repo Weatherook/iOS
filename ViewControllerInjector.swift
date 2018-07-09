@@ -17,10 +17,16 @@ import SwinjectStoryboard
 extension SwinjectStoryboard{
     @objc class func setup() {
         
-        defaultContainer.autoregister(SignupScrollViewModeling.self, initializer: SignupScrollViewModel.init)
+        /*Event 드라이버*/
+        defaultContainer.autoregister(NetworkDrivable.self, initializer: NetworkDriver.init)
+        defaultContainer.autoregister(EventDrivable.self, initializer: EventDriver.init)
         
-        defaultContainer.storyboardInitCompleted(SignupScrollViewController.self) { (r, c) in c.model = r~> }
         
+        /*스토리보드 인젝션*/
+        defaultContainer.storyboardInitCompleted(SignupScrollViewController.self) { (r, c) in c.model = r~> } // 내려받는거
+        
+        /*뷰모델*/
+        defaultContainer.autoregister(SignupScrollViewModeling.self, initializer: SignupScrollViewModel.init) // 올리는거
     }
 }
 

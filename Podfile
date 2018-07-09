@@ -8,6 +8,7 @@ target 'Weatherook' do
   # Pods for Weatherook
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'RxAlamofire'
   pod 'Alamofire'
   pod 'Kingfisher'
   pod 'Then'

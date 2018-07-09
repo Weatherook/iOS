@@ -2,6 +2,11 @@ PODS:
   - Alamofire (4.7.1)
   - Hero (1.1.0)
   - Kingfisher (4.7.0)
+  - RxAlamofire (4.2.0):
+    - RxAlamofire/Core (= 4.2.0)
+  - RxAlamofire/Core (4.2.0):
+    - Alamofire (~> 4.5)
+    - RxSwift (~> 4)
   - RxCocoa (4.1.2):
     - RxSwift (~> 4.0)
   - RxSwift (4.1.2)
@@ -17,6 +22,7 @@ DEPENDENCIES:
   - Alamofire
   - Hero
   - Kingfisher
+  - RxAlamofire
   - RxCocoa
   - RxSwift
   - Swinject
@@ -30,6 +36,7 @@ SPEC REPOS:
     - Alamofire
     - Hero
     - Kingfisher
+    - RxAlamofire
     - RxCocoa
     - RxSwift
     - Swinject
@@ -42,6 +49,7 @@ SPEC CHECKSUMS:
   Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
   Hero: ce59e81c79390613d97b43da7179e2c5e1017e04
   Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
+  RxAlamofire: 87a9c588541210cc3e4a1f843ccc3ecf3eb98b31
   RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
   RxSwift: e49536837d9901277638493ea537394d4b55f570
   Swinject: a1364b0f66c2736bb03c1c7cab54809e16df25da
@@ -50,6 +58,6 @@ SPEC CHECKSUMS:
   Then: ee21c97b85ff6062b9b0080c9abb1eea46743345
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 
-PODFILE CHECKSUM: d8e5d3e1b0c2c318974e80c058b239822a88c270
+PODFILE CHECKSUM: 49a83f80acf6900d3f106c1f789edc5faaefe2f8
 
 COCOAPODS: 1.5.0.beta.1

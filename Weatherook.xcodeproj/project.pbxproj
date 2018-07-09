@@ -17,6 +17,13 @@
 		2FA9C0B120EE05C5005DF55E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0B020EE05C5005DF55E /* LoginViewModel.swift */; };
 		2FA9C0B320EE05D1005DF55E /* LoginViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0B220EE05D1005DF55E /* LoginViewModeling.swift */; };
 		2FA9C0C720EE09E8005DF55E /* SignupScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0C620EE09E8005DF55E /* SignupScrollViewController.swift */; };
+		2FBA167F20F3488E00F82F98 /* BoardAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA167E20F3488E00F82F98 /* BoardAPI.swift */; };
+		2FBA168120F348B400F82F98 /* BoardAPIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA168020F348B400F82F98 /* BoardAPIDelegate.swift */; };
+		2FBA168420F3494600F82F98 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA168320F3494600F82F98 /* Const.swift */; };
+		2FBA169020F35D0F00F82F98 /* EventDrivable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA168F20F35D0F00F82F98 /* EventDrivable.swift */; };
+		2FBA169220F35DA900F82F98 /* EventDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA169120F35DA900F82F98 /* EventDriver.swift */; };
+		2FBA169420F35E1700F82F98 /* NetworkDrivable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA169320F35E1700F82F98 /* NetworkDrivable.swift */; };
+		2FBA169720F35E4000F82F98 /* NetworkDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA169620F35E4000F82F98 /* NetworkDriver.swift */; };
 		2FE6A6BA20E8953000E1C9EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6A6B920E8953000E1C9EE /* AppDelegate.swift */; };
 		2FE6A6BF20E8953000E1C9EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE6A6BD20E8953000E1C9EE /* Main.storyboard */; };
 		2FE6A6C120E8953100E1C9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE6A6C020E8953100E1C9EE /* Assets.xcassets */; };
@@ -58,6 +65,13 @@
 		2FA9C0B020EE05C5005DF55E /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		2FA9C0B220EE05D1005DF55E /* LoginViewModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModeling.swift; sourceTree = "<group>"; };
 		2FA9C0C620EE09E8005DF55E /* SignupScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScrollViewController.swift; sourceTree = "<group>"; };
+		2FBA167E20F3488E00F82F98 /* BoardAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardAPI.swift; sourceTree = "<group>"; };
+		2FBA168020F348B400F82F98 /* BoardAPIDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardAPIDelegate.swift; sourceTree = "<group>"; };
+		2FBA168320F3494600F82F98 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		2FBA168F20F35D0F00F82F98 /* EventDrivable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDrivable.swift; sourceTree = "<group>"; };
+		2FBA169120F35DA900F82F98 /* EventDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDriver.swift; sourceTree = "<group>"; };
+		2FBA169320F35E1700F82F98 /* NetworkDrivable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDrivable.swift; sourceTree = "<group>"; };
+		2FBA169620F35E4000F82F98 /* NetworkDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDriver.swift; sourceTree = "<group>"; };
 		2FE6A6B620E8953000E1C9EE /* Weatherook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weatherook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE6A6B920E8953000E1C9EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FE6A6BE20E8953000E1C9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -159,6 +173,74 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		2FBA167A20F344A600F82F98 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA168520F34BF000F82F98 /* Extension */,
+				2FBA167C20F344CC00F82F98 /* Protocol */,
+				2FBA167B20F344AE00F82F98 /* model */,
+				2FBA167E20F3488E00F82F98 /* BoardAPI.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		2FBA167B20F344AE00F82F98 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		2FBA167C20F344CC00F82F98 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA168020F348B400F82F98 /* BoardAPIDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		2FBA168220F3493B00F82F98 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA168320F3494600F82F98 /* Const.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		2FBA168520F34BF000F82F98 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2FBA168620F34F1A00F82F98 /* EventDriver */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA168E20F3511700F82F98 /* EventDriver */,
+				2FBA168D20F3510D00F82F98 /* NetworkDriver */,
+			);
+			path = EventDriver;
+			sourceTree = "<group>";
+		};
+		2FBA168D20F3510D00F82F98 /* NetworkDriver */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA169320F35E1700F82F98 /* NetworkDrivable.swift */,
+				2FBA169620F35E4000F82F98 /* NetworkDriver.swift */,
+			);
+			path = NetworkDriver;
+			sourceTree = "<group>";
+		};
+		2FBA168E20F3511700F82F98 /* EventDriver */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA168F20F35D0F00F82F98 /* EventDrivable.swift */,
+				2FBA169120F35DA900F82F98 /* EventDriver.swift */,
+			);
+			path = EventDriver;
+			sourceTree = "<group>";
+		};
 		2FE6A6AD20E8953000E1C9EE = {
 			isa = PBXGroup;
 			children = (
@@ -180,7 +262,9 @@
 		2FE6A6B820E8953000E1C9EE /* Weatherook */ = {
 			isa = PBXGroup;
 			children = (
-				7C94DF4620EA0F8500D23199 /* util */,
+				2FBA168620F34F1A00F82F98 /* EventDriver */,
+				2FBA168220F3493B00F82F98 /* Const */,
+				2FBA167A20F344A600F82F98 /* Api */,
 				7C94DF4520EA0F7A00D23199 /* di */,
 				2FE6A6D120E8A62000E1C9EE /* storyboard */,
 				2FE6A6CB20E89E6C00E1C9EE /* ui */,
@@ -303,13 +387,6 @@
 			path = di;
 			sourceTree = "<group>";
 		};
-		7C94DF4620EA0F8500D23199 /* util */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = util;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -397,6 +474,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
@@ -410,6 +488,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
@@ -450,16 +529,21 @@
 			files = (
 				2FA9C0C720EE09E8005DF55E /* SignupScrollViewController.swift in Sources */,
 				7C60275C20E9FBD00010AF12 /* LoginViewController.swift in Sources */,
+				2FBA169220F35DA900F82F98 /* EventDriver.swift in Sources */,
 				7C60275320E9F2A40010AF12 /* WriteViewController.swift in Sources */,
+				2FBA169720F35E4000F82F98 /* NetworkDriver.swift in Sources */,
 				7C94DF4D20EB7BC900D23199 /* CharacterView.swift in Sources */,
 				7C94DF4920EA3BDA00D23199 /* SignupView.swift in Sources */,
 				7C245F0920ED30430070E178 /* MainTableViewController.swift in Sources */,
 				7C60275120E9F2970010AF12 /* SearchViewController.swift in Sources */,
+				2FBA169420F35E1700F82F98 /* NetworkDrivable.swift in Sources */,
 				2FE6A6BA20E8953000E1C9EE /* AppDelegate.swift in Sources */,
 				7C94DF5120EC607D00D23199 /* NewsTableViewController.swift in Sources */,
 				2FE6A6D020E8A5E300E1C9EE /* MainViewModelDelegate.swift in Sources */,
 				7C245F0D20ED30C60070E178 /* MainboardTableViewCell.swift in Sources */,
 				2F3C99AA20EF6CEB00D76953 /* SignupScrollViewModeling.swift in Sources */,
+				2FBA168120F348B400F82F98 /* BoardAPIDelegate.swift in Sources */,
+				2FBA168420F3494600F82F98 /* Const.swift in Sources */,
 				7C94DF5320EC60A400D23199 /* NewsTableViewCell.swift in Sources */,
 				2FA9C0B320EE05D1005DF55E /* LoginViewModeling.swift in Sources */,
 				7C94DF4F20EBD67E00D23199 /* MypageSettingViewController.swift in Sources */,
@@ -467,7 +551,9 @@
 				7C245F1120ED34EB0070E178 /* MainRecommendCollectionViewCell.swift in Sources */,
 				2F3C99A820EF6CD300D76953 /* SignupScrollViewModel.swift in Sources */,
 				7C245F0B20ED30760070E178 /* MainTableViewHeaderCell.swift in Sources */,
+				2FBA167F20F3488E00F82F98 /* BoardAPI.swift in Sources */,
 				7C94DF5520EC74D400D23199 /* MypageSettingTableViewController.swift in Sources */,
+				2FBA169020F35D0F00F82F98 /* EventDrivable.swift in Sources */,
 				2FE6A6CE20E89EA200E1C9EE /* MainViewModel.swift in Sources */,
 				7C94DF4B20EB717B00D23199 /* AgeView.swift in Sources */,
 				7C60275720E9F2B30010AF12 /* MypageViewController.swift in Sources */,

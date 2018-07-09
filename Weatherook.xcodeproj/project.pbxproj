@@ -24,6 +24,12 @@
 		2FBA169220F35DA900F82F98 /* EventDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA169120F35DA900F82F98 /* EventDriver.swift */; };
 		2FBA169420F35E1700F82F98 /* NetworkDrivable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA169320F35E1700F82F98 /* NetworkDrivable.swift */; };
 		2FBA169720F35E4000F82F98 /* NetworkDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA169620F35E4000F82F98 /* NetworkDriver.swift */; };
+		2FBA169D20F3704200F82F98 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA169C20F3704200F82F98 /* LocationManager.swift */; };
+		2FBA16A220F374B700F82F98 /* LocationManagerModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA16A120F374B700F82F98 /* LocationManagerModeling.swift */; };
+		2FBA16A520F3777800F82F98 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA16A420F3777800F82F98 /* CameraManager.swift */; };
+		2FBA16A720F3781500F82F98 /* GalleryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA16A620F3781500F82F98 /* GalleryManager.swift */; };
+		2FBA16A920F3782700F82F98 /* GallerManagerModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA16A820F3782700F82F98 /* GallerManagerModeling.swift */; };
+		2FBA16AB20F3783200F82F98 /* CameraManagerModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA16AA20F3783200F82F98 /* CameraManagerModeling.swift */; };
 		2FE6A6BA20E8953000E1C9EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6A6B920E8953000E1C9EE /* AppDelegate.swift */; };
 		2FE6A6BF20E8953000E1C9EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE6A6BD20E8953000E1C9EE /* Main.storyboard */; };
 		2FE6A6C120E8953100E1C9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE6A6C020E8953100E1C9EE /* Assets.xcassets */; };
@@ -73,6 +79,12 @@
 		2FBA169120F35DA900F82F98 /* EventDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDriver.swift; sourceTree = "<group>"; };
 		2FBA169320F35E1700F82F98 /* NetworkDrivable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDrivable.swift; sourceTree = "<group>"; };
 		2FBA169620F35E4000F82F98 /* NetworkDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDriver.swift; sourceTree = "<group>"; };
+		2FBA169C20F3704200F82F98 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		2FBA16A120F374B700F82F98 /* LocationManagerModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManagerModeling.swift; sourceTree = "<group>"; };
+		2FBA16A420F3777800F82F98 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		2FBA16A620F3781500F82F98 /* GalleryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryManager.swift; sourceTree = "<group>"; };
+		2FBA16A820F3782700F82F98 /* GallerManagerModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallerManagerModeling.swift; sourceTree = "<group>"; };
+		2FBA16AA20F3783200F82F98 /* CameraManagerModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManagerModeling.swift; sourceTree = "<group>"; };
 		2FE6A6B620E8953000E1C9EE /* Weatherook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weatherook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE6A6B920E8953000E1C9EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FE6A6BE20E8953000E1C9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -251,6 +263,43 @@
 			path = Api;
 			sourceTree = "<group>";
 		};
+		2FBA169920F36FA900F82F98 /* Utiles */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA16A320F3756100F82F98 /* Gallery */,
+				2FBA169B20F3700200F82F98 /* Camera */,
+				2FBA169A20F36FFD00F82F98 /* Location */,
+			);
+			path = Utiles;
+			sourceTree = "<group>";
+		};
+		2FBA169A20F36FFD00F82F98 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA169C20F3704200F82F98 /* LocationManager.swift */,
+				2FBA16A120F374B700F82F98 /* LocationManagerModeling.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		2FBA169B20F3700200F82F98 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA16A420F3777800F82F98 /* CameraManager.swift */,
+				2FBA16AA20F3783200F82F98 /* CameraManagerModeling.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		2FBA16A320F3756100F82F98 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA16A620F3781500F82F98 /* GalleryManager.swift */,
+				2FBA16A820F3782700F82F98 /* GallerManagerModeling.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
 		2FE6A6AD20E8953000E1C9EE = {
 			isa = PBXGroup;
 			children = (
@@ -272,6 +321,7 @@
 		2FE6A6B820E8953000E1C9EE /* Weatherook */ = {
 			isa = PBXGroup;
 			children = (
+				2FBA169920F36FA900F82F98 /* Utiles */,
 				2FBA168620F34F1A00F82F98 /* EventDriver */,
 				2FBA168220F3493B00F82F98 /* Const */,
 				2FBA167A20F344A600F82F98 /* Network */,
@@ -280,9 +330,9 @@
 				2FE6A6CB20E89E6C00E1C9EE /* UserInterface */,
 				2FE6A6B920E8953000E1C9EE /* AppDelegate.swift */,
 				2FE6A6BD20E8953000E1C9EE /* Main.storyboard */,
-				7C60274B20E9EF100010AF12 /* Assest */,
 				2FE6A6C220E8953100E1C9EE /* LaunchScreen.storyboard */,
 				2FE6A6C520E8953100E1C9EE /* Info.plist */,
+				7C60274B20E9EF100010AF12 /* Assest */,
 			);
 			path = Weatherook;
 			sourceTree = "<group>";
@@ -553,8 +603,10 @@
 				7C94DF5120EC607D00D23199 /* NewsTableViewController.swift in Sources */,
 				2FE6A6D020E8A5E300E1C9EE /* MainViewModelDelegate.swift in Sources */,
 				7C245F0D20ED30C60070E178 /* MainboardTableViewCell.swift in Sources */,
+				2FBA169D20F3704200F82F98 /* LocationManager.swift in Sources */,
 				2F3C99AA20EF6CEB00D76953 /* SignupScrollViewModeling.swift in Sources */,
 				2FBA168120F348B400F82F98 /* BoardAPIDelegate.swift in Sources */,
+				2FBA16AB20F3783200F82F98 /* CameraManagerModeling.swift in Sources */,
 				2FBA168420F3494600F82F98 /* Const.swift in Sources */,
 				7C94DF5320EC60A400D23199 /* NewsTableViewCell.swift in Sources */,
 				2FA9C0B320EE05D1005DF55E /* LoginViewModeling.swift in Sources */,
@@ -563,14 +615,18 @@
 				7C245F1120ED34EB0070E178 /* MainRecommendCollectionViewCell.swift in Sources */,
 				2F3C99A820EF6CD300D76953 /* SignupScrollViewModel.swift in Sources */,
 				7C245F0B20ED30760070E178 /* MainTableViewHeaderCell.swift in Sources */,
+				2FBA16A920F3782700F82F98 /* GallerManagerModeling.swift in Sources */,
 				2FBA167F20F3488E00F82F98 /* BoardAPI.swift in Sources */,
 				7C94DF5520EC74D400D23199 /* MypageSettingTableViewController.swift in Sources */,
 				2FBA169020F35D0F00F82F98 /* EventDrivable.swift in Sources */,
 				2FE6A6CE20E89EA200E1C9EE /* MainViewModel.swift in Sources */,
 				7C94DF4B20EB717B00D23199 /* AgeView.swift in Sources */,
+				2FBA16A720F3781500F82F98 /* GalleryManager.swift in Sources */,
+				2FBA16A520F3777800F82F98 /* CameraManager.swift in Sources */,
 				7C60275720E9F2B30010AF12 /* MypageViewController.swift in Sources */,
 				7C60275920E9FB0D0010AF12 /* MainViewController.swift in Sources */,
 				2FA9C0B120EE05C5005DF55E /* LoginViewModel.swift in Sources */,
+				2FBA16A220F374B700F82F98 /* LocationManagerModeling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

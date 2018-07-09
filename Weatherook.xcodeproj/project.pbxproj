@@ -178,6 +178,7 @@
 		2FBA167A20F344A600F82F98 /* Api */ = {
 			isa = PBXGroup;
 			children = (
+				2FBA169820F360F800F82F98 /* Network */,
 				2FBA168520F34BF000F82F98 /* Extension */,
 				2FBA167C20F344CC00F82F98 /* Protocol */,
 				2FBA167B20F344AE00F82F98 /* model */,
@@ -243,6 +244,13 @@
 			path = EventDriver;
 			sourceTree = "<group>";
 		};
+		2FBA169820F360F800F82F98 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		2FE6A6AD20E8953000E1C9EE = {
 			isa = PBXGroup;
 			children = (
@@ -267,9 +275,9 @@
 				2FBA168620F34F1A00F82F98 /* EventDriver */,
 				2FBA168220F3493B00F82F98 /* Const */,
 				2FBA167A20F344A600F82F98 /* Api */,
-				7C94DF4520EA0F7A00D23199 /* di */,
+				7C94DF4520EA0F7A00D23199 /* DependencyInjection */,
 				2FE6A6D120E8A62000E1C9EE /* storyboard */,
-				2FE6A6CB20E89E6C00E1C9EE /* ui */,
+				2FE6A6CB20E89E6C00E1C9EE /* UserInterface */,
 				2FE6A6B920E8953000E1C9EE /* AppDelegate.swift */,
 				2FE6A6BD20E8953000E1C9EE /* Main.storyboard */,
 				7C60274B20E9EF100010AF12 /* Assest */,
@@ -279,7 +287,7 @@
 			path = Weatherook;
 			sourceTree = "<group>";
 		};
-		2FE6A6CB20E89E6C00E1C9EE /* ui */ = {
+		2FE6A6CB20E89E6C00E1C9EE /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
 				7C60275A20E9FBBF0010AF12 /* Login */,
@@ -289,7 +297,7 @@
 				7C60274D20E9F2540010AF12 /* News */,
 				7C60274C20E9F2520010AF12 /* Mypage */,
 			);
-			path = ui;
+			path = UserInterface;
 			sourceTree = "<group>";
 		};
 		2FE6A6CC20E89E7200E1C9EE /* Main */ = {
@@ -381,13 +389,13 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		7C94DF4520EA0F7A00D23199 /* di */ = {
+		7C94DF4520EA0F7A00D23199 /* DependencyInjection */ = {
 			isa = PBXGroup;
 			children = (
 				2FA9C0C120EE07EE005DF55E /* module */,
 				2FA9C0AA20EE02F9005DF55E /* ViewControllerInjector.swift */,
 			);
-			path = di;
+			path = DependencyInjection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

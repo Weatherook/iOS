@@ -29,7 +29,6 @@
 		2FA9C0B120EE05C5005DF55E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0B020EE05C5005DF55E /* LoginViewModel.swift */; };
 		2FA9C0B320EE05D1005DF55E /* LoginViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0B220EE05D1005DF55E /* LoginViewModeling.swift */; };
 		2FA9C0C720EE09E8005DF55E /* SignupScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0C620EE09E8005DF55E /* SignupScrollViewController.swift */; };
-		2FBA167F20F3488E00F82F98 /* BoardAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA167E20F3488E00F82F98 /* BoardAPI.swift */; };
 		2FBA168120F348B400F82F98 /* BoardAPIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA168020F348B400F82F98 /* BoardAPIDelegate.swift */; };
 		2FBA168420F3494600F82F98 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA168320F3494600F82F98 /* Const.swift */; };
 		2FBA169020F35D0F00F82F98 /* EventDrivable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA168F20F35D0F00F82F98 /* EventDrivable.swift */; };
@@ -97,7 +96,6 @@
 		2FA9C0B020EE05C5005DF55E /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		2FA9C0B220EE05D1005DF55E /* LoginViewModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModeling.swift; sourceTree = "<group>"; };
 		2FA9C0C620EE09E8005DF55E /* SignupScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScrollViewController.swift; sourceTree = "<group>"; };
-		2FBA167E20F3488E00F82F98 /* BoardAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardAPI.swift; sourceTree = "<group>"; };
 		2FBA168020F348B400F82F98 /* BoardAPIDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardAPIDelegate.swift; sourceTree = "<group>"; };
 		2FBA168320F3494600F82F98 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		2FBA168F20F35D0F00F82F98 /* EventDrivable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDrivable.swift; sourceTree = "<group>"; };
@@ -220,7 +218,6 @@
 				2FBA168520F34BF000F82F98 /* Extension */,
 				2FBA167C20F344CC00F82F98 /* Protocol */,
 				2FBA167B20F344AE00F82F98 /* Model */,
-				2FBA167E20F3488E00F82F98 /* BoardAPI.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -667,7 +664,6 @@
 				7C245F0B20ED30760070E178 /* MainTableViewHeaderCell.swift in Sources */,
 				2FBA16A920F3782700F82F98 /* GallerManagerModeling.swift in Sources */,
 				2F4A4C6220F4B2360046A34B /* SignApiProtocol.swift in Sources */,
-				2FBA167F20F3488E00F82F98 /* BoardAPI.swift in Sources */,
 				7C94DF5520EC74D400D23199 /* MypageSettingTableViewController.swift in Sources */,
 				2FBA169020F35D0F00F82F98 /* EventDrivable.swift in Sources */,
 				2FE6A6CE20E89EA200E1C9EE /* MainViewModel.swift in Sources */,

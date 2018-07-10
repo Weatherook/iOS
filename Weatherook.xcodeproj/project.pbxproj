@@ -10,6 +10,18 @@
 		2741C679590E3573F3CA6052 /* Pods_Weatherook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207AC513564BAE4DE67FB2D6 /* Pods_Weatherook.framework */; };
 		2F3C99A820EF6CD300D76953 /* SignupScrollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C99A720EF6CD300D76953 /* SignupScrollViewModel.swift */; };
 		2F3C99AA20EF6CEB00D76953 /* SignupScrollViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C99A920EF6CEB00D76953 /* SignupScrollViewModeling.swift */; };
+		2F4A4C5420F4B2140046A34B /* SignApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A4C4E20F4B2140046A34B /* SignApi.swift */; };
+		2F4A4C5520F4B2140046A34B /* WeatherApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A4C4F20F4B2140046A34B /* WeatherApi.swift */; };
+		2F4A4C5620F4B2140046A34B /* BoardApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A4C5020F4B2140046A34B /* BoardApi.swift */; };
+		2F4A4C5720F4B2140046A34B /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A4C5120F4B2140046A34B /* UserApi.swift */; };
+		2F4A4C5820F4B2140046A34B /* BoardOtherApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A4C5220F4B2140046A34B /* BoardOtherApi.swift */; };
+		2F4A4C5920F4B2140046A34B /* SearchApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A4C5320F4B2140046A34B /* SearchApi.swift */; };
+		2F4A4C6020F4B2360046A34B /* BoardOtherApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A4C5A20F4B2360046A34B /* BoardOtherApiProtocol.swift */; };
+		2F4A4C6120F4B2360046A34B /* SearchApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A4C5B20F4B2360046A34B /* SearchApiProtocol.swift */; };
+		2F4A4C6220F4B2360046A34B /* SignApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A4C5C20F4B2360046A34B /* SignApiProtocol.swift */; };
+		2F4A4C6320F4B2360046A34B /* UserApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A4C5D20F4B2360046A34B /* UserApiProtocol.swift */; };
+		2F4A4C6420F4B2360046A34B /* BoardApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A4C5E20F4B2360046A34B /* BoardApiProtocol.swift */; };
+		2F4A4C6520F4B2360046A34B /* WeatherApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A4C5F20F4B2360046A34B /* WeatherApiProtocol.swift */; };
 		2F5806A720EE18E20064A3AC /* CharacterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5806A620EE18E20064A3AC /* CharacterView.xib */; };
 		2F5806A920EE18F90064A3AC /* AgeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5806A820EE18F90064A3AC /* AgeView.xib */; };
 		2F5806AB20EE19060064A3AC /* SignupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5806AA20EE19060064A3AC /* SignupView.xib */; };
@@ -66,6 +78,18 @@
 		2E109C6847993D4B974BA9E6 /* Pods-Weatherook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weatherook.release.xcconfig"; path = "Pods/Target Support Files/Pods-Weatherook/Pods-Weatherook.release.xcconfig"; sourceTree = "<group>"; };
 		2F3C99A720EF6CD300D76953 /* SignupScrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScrollViewModel.swift; sourceTree = "<group>"; };
 		2F3C99A920EF6CEB00D76953 /* SignupScrollViewModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScrollViewModeling.swift; sourceTree = "<group>"; };
+		2F4A4C4E20F4B2140046A34B /* SignApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignApi.swift; sourceTree = "<group>"; };
+		2F4A4C4F20F4B2140046A34B /* WeatherApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherApi.swift; sourceTree = "<group>"; };
+		2F4A4C5020F4B2140046A34B /* BoardApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardApi.swift; sourceTree = "<group>"; };
+		2F4A4C5120F4B2140046A34B /* UserApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
+		2F4A4C5220F4B2140046A34B /* BoardOtherApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardOtherApi.swift; sourceTree = "<group>"; };
+		2F4A4C5320F4B2140046A34B /* SearchApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchApi.swift; sourceTree = "<group>"; };
+		2F4A4C5A20F4B2360046A34B /* BoardOtherApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BoardOtherApiProtocol.swift; path = ../../../../Weatherook/Weatherook/Network/Protocol/BoardOtherApiProtocol.swift; sourceTree = "<group>"; };
+		2F4A4C5B20F4B2360046A34B /* SearchApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchApiProtocol.swift; path = ../../../../Weatherook/Weatherook/Network/Protocol/SearchApiProtocol.swift; sourceTree = "<group>"; };
+		2F4A4C5C20F4B2360046A34B /* SignApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignApiProtocol.swift; path = ../../../../Weatherook/Weatherook/Network/Protocol/SignApiProtocol.swift; sourceTree = "<group>"; };
+		2F4A4C5D20F4B2360046A34B /* UserApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserApiProtocol.swift; path = ../../../../Weatherook/Weatherook/Network/Protocol/UserApiProtocol.swift; sourceTree = "<group>"; };
+		2F4A4C5E20F4B2360046A34B /* BoardApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BoardApiProtocol.swift; path = ../../../../Weatherook/Weatherook/Network/Protocol/BoardApiProtocol.swift; sourceTree = "<group>"; };
+		2F4A4C5F20F4B2360046A34B /* WeatherApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherApiProtocol.swift; path = ../../../../Weatherook/Weatherook/Network/Protocol/WeatherApiProtocol.swift; sourceTree = "<group>"; };
 		2F5806A620EE18E20064A3AC /* CharacterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterView.xib; sourceTree = "<group>"; };
 		2F5806A820EE18F90064A3AC /* AgeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AgeView.xib; sourceTree = "<group>"; };
 		2F5806AA20EE19060064A3AC /* SignupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignupView.xib; sourceTree = "<group>"; };
@@ -211,6 +235,12 @@
 		2FBA167C20F344CC00F82F98 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				2F4A4C5E20F4B2360046A34B /* BoardApiProtocol.swift */,
+				2F4A4C5A20F4B2360046A34B /* BoardOtherApiProtocol.swift */,
+				2F4A4C5B20F4B2360046A34B /* SearchApiProtocol.swift */,
+				2F4A4C5C20F4B2360046A34B /* SignApiProtocol.swift */,
+				2F4A4C5D20F4B2360046A34B /* UserApiProtocol.swift */,
+				2F4A4C5F20F4B2360046A34B /* WeatherApiProtocol.swift */,
 				2FBA168020F348B400F82F98 /* BoardAPIDelegate.swift */,
 			);
 			path = Protocol;
@@ -261,6 +291,12 @@
 		2FBA169820F360F800F82F98 /* Api */ = {
 			isa = PBXGroup;
 			children = (
+				2F4A4C5020F4B2140046A34B /* BoardApi.swift */,
+				2F4A4C5220F4B2140046A34B /* BoardOtherApi.swift */,
+				2F4A4C5320F4B2140046A34B /* SearchApi.swift */,
+				2F4A4C4E20F4B2140046A34B /* SignApi.swift */,
+				2F4A4C5120F4B2140046A34B /* UserApi.swift */,
+				2F4A4C4F20F4B2140046A34B /* WeatherApi.swift */,
 			);
 			path = Api;
 			sourceTree = "<group>";
@@ -594,11 +630,15 @@
 				2FA9C0C720EE09E8005DF55E /* SignupScrollViewController.swift in Sources */,
 				7C60275C20E9FBD00010AF12 /* LoginViewController.swift in Sources */,
 				2FBA169220F35DA900F82F98 /* EventDriver.swift in Sources */,
+				2F4A4C6020F4B2360046A34B /* BoardOtherApiProtocol.swift in Sources */,
 				7C60275320E9F2A40010AF12 /* WriteViewController.swift in Sources */,
 				2FBA169720F35E4000F82F98 /* NetworkDriver.swift in Sources */,
+				2F4A4C5520F4B2140046A34B /* WeatherApi.swift in Sources */,
 				7C94DF4D20EB7BC900D23199 /* CharacterView.swift in Sources */,
 				7C94DF4920EA3BDA00D23199 /* SignupView.swift in Sources */,
 				7C245F0920ED30430070E178 /* MainTableViewController.swift in Sources */,
+				2F4A4C5420F4B2140046A34B /* SignApi.swift in Sources */,
+				2F4A4C5620F4B2140046A34B /* BoardApi.swift in Sources */,
 				7C60275120E9F2970010AF12 /* SearchViewController.swift in Sources */,
 				2FBA169420F35E1700F82F98 /* NetworkDrivable.swift in Sources */,
 				2FE6A6BA20E8953000E1C9EE /* AppDelegate.swift in Sources */,
@@ -607,19 +647,26 @@
 				7C245F0D20ED30C60070E178 /* MainboardTableViewCell.swift in Sources */,
 				2FBA169D20F3704200F82F98 /* LocationManager.swift in Sources */,
 				2F3C99AA20EF6CEB00D76953 /* SignupScrollViewModeling.swift in Sources */,
+				2F4A4C6120F4B2360046A34B /* SearchApiProtocol.swift in Sources */,
 				7CE1D2A820F47FD200E0C40E /* FollowingViewController.swift in Sources */,
 				2FBA168120F348B400F82F98 /* BoardAPIDelegate.swift in Sources */,
+				2F4A4C6520F4B2360046A34B /* WeatherApiProtocol.swift in Sources */,
+				2F4A4C5720F4B2140046A34B /* UserApi.swift in Sources */,
 				2FBA16AB20F3783200F82F98 /* CameraManagerModeling.swift in Sources */,
 				7CE1D2A620F4616C00E0C40E /* GalleryViewController.swift in Sources */,
 				2FBA168420F3494600F82F98 /* Const.swift in Sources */,
+				2F4A4C6320F4B2360046A34B /* UserApiProtocol.swift in Sources */,
 				7C94DF5320EC60A400D23199 /* NewsTableViewCell.swift in Sources */,
 				2FA9C0B320EE05D1005DF55E /* LoginViewModeling.swift in Sources */,
 				7C94DF4F20EBD67E00D23199 /* MypageSettingViewController.swift in Sources */,
 				2FA9C0AB20EE02F9005DF55E /* ViewControllerInjector.swift in Sources */,
+				2F4A4C5820F4B2140046A34B /* BoardOtherApi.swift in Sources */,
 				7C245F1120ED34EB0070E178 /* MainRecommendCollectionViewCell.swift in Sources */,
 				2F3C99A820EF6CD300D76953 /* SignupScrollViewModel.swift in Sources */,
+				2F4A4C6420F4B2360046A34B /* BoardApiProtocol.swift in Sources */,
 				7C245F0B20ED30760070E178 /* MainTableViewHeaderCell.swift in Sources */,
 				2FBA16A920F3782700F82F98 /* GallerManagerModeling.swift in Sources */,
+				2F4A4C6220F4B2360046A34B /* SignApiProtocol.swift in Sources */,
 				2FBA167F20F3488E00F82F98 /* BoardAPI.swift in Sources */,
 				7C94DF5520EC74D400D23199 /* MypageSettingTableViewController.swift in Sources */,
 				2FBA169020F35D0F00F82F98 /* EventDrivable.swift in Sources */,
@@ -630,6 +677,7 @@
 				7C60275720E9F2B30010AF12 /* MypageViewController.swift in Sources */,
 				7C60275920E9FB0D0010AF12 /* MainViewController.swift in Sources */,
 				2FA9C0B120EE05C5005DF55E /* LoginViewModel.swift in Sources */,
+				2F4A4C5920F4B2140046A34B /* SearchApi.swift in Sources */,
 				2FBA16A220F374B700F82F98 /* LocationManagerModeling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

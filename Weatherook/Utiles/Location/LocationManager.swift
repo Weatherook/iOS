@@ -9,17 +9,17 @@
 import Foundation
 import CoreLocation
 
-class LocationManager : NSObject, CLLocationManagerDelegate,LocationManagerModeling{
-    var locationManger: CLLocationManager{
-        let locationManager = CLLocationManager()
-        locationManager.delegate = self
-        locationManager.requestWhenInUseAuthorization()
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        return locationManger
-    }
-    
-    
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        
-    }
-}
+//class LocationManager : NSObject, CLLocationManagerDelegate,LocationManagerModeling{
+//    var locationManger: CLLocationManager{
+//        let locationManager = CLLocationManager()
+//        locationManager.delegate = self
+//        locationManager.requestWhenInUseAuthorization()
+//        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+//        return locationManger
+//    }
+//
+//
+//    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+//
+//    }
+//}

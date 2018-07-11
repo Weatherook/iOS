@@ -15,11 +15,6 @@
 		2F5806A720EE18E20064A3AC /* CharacterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5806A620EE18E20064A3AC /* CharacterView.xib */; };
 		2F5806A920EE18F90064A3AC /* AgeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5806A820EE18F90064A3AC /* AgeView.xib */; };
 		2F5806AB20EE19060064A3AC /* SignupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5806AA20EE19060064A3AC /* SignupView.xib */; };
-		2F730A2720F6487A00FC9DBD /* SearchApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A2120F6487A00FC9DBD /* SearchApi.swift */; };
-		2F730A2820F6487A00FC9DBD /* BoardOtherApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A2220F6487A00FC9DBD /* BoardOtherApi.swift */; };
-		2F730A2A20F6487A00FC9DBD /* SignApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A2420F6487A00FC9DBD /* SignApi.swift */; };
-		2F730A2B20F6487A00FC9DBD /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A2520F6487A00FC9DBD /* UserApi.swift */; };
-		2F730A2C20F6487A00FC9DBD /* WeatherApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A2620F6487A00FC9DBD /* WeatherApi.swift */; };
 		2F730A4B20F648A400FC9DBD /* BoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A2F20F648A300FC9DBD /* BoardModel.swift */; };
 		2F730A4C20F648A400FC9DBD /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A3120F648A300FC9DBD /* CommentModel.swift */; };
 		2F730A4D20F648A400FC9DBD /* FollowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A3220F648A300FC9DBD /* FollowModel.swift */; };
@@ -97,11 +92,6 @@
 		2F5806A620EE18E20064A3AC /* CharacterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterView.xib; sourceTree = "<group>"; };
 		2F5806A820EE18F90064A3AC /* AgeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AgeView.xib; sourceTree = "<group>"; };
 		2F5806AA20EE19060064A3AC /* SignupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignupView.xib; sourceTree = "<group>"; };
-		2F730A2120F6487A00FC9DBD /* SearchApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchApi.swift; path = ../../../../../iOS/Weatherook/Network/Api/SearchApi.swift; sourceTree = "<group>"; };
-		2F730A2220F6487A00FC9DBD /* BoardOtherApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BoardOtherApi.swift; path = ../../../../../iOS/Weatherook/Network/Api/BoardOtherApi.swift; sourceTree = "<group>"; };
-		2F730A2420F6487A00FC9DBD /* SignApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignApi.swift; path = ../../../../../iOS/Weatherook/Network/Api/SignApi.swift; sourceTree = "<group>"; };
-		2F730A2520F6487A00FC9DBD /* UserApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserApi.swift; path = ../../../../../iOS/Weatherook/Network/Api/UserApi.swift; sourceTree = "<group>"; };
-		2F730A2620F6487A00FC9DBD /* WeatherApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherApi.swift; path = ../../../../../iOS/Weatherook/Network/Api/WeatherApi.swift; sourceTree = "<group>"; };
 		2F730A2F20F648A300FC9DBD /* BoardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardModel.swift; sourceTree = "<group>"; };
 		2F730A3120F648A300FC9DBD /* CommentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
 		2F730A3220F648A300FC9DBD /* FollowModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowModel.swift; sourceTree = "<group>"; };
@@ -194,18 +184,19 @@
 		2F131EBA20F67E9900234CCC /* Task */ = {
 			isa = PBXGroup;
 			children = (
-				2F131EB820F67E5F00234CCC /* BoardApi.swift */,
+				2F730A2E20F648A300FC9DBD /* NetworkModel */,
+				2F131EBB20F67F3800234CCC /* ApiNetwork */,
+				2F730A3020F648A300FC9DBD /* DatabaseModel */,
 			);
 			path = Task;
 			sourceTree = "<group>";
 		};
-		2F1DFB0B20F67BFA00C18BEC /* Api */ = {
+		2F131EBB20F67F3800234CCC /* ApiNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				2F730A2D20F648A300FC9DBD /* Model */,
-				2FBA169820F360F800F82F98 /* Api */,
+				2F131EB820F67E5F00234CCC /* BoardApi.swift */,
 			);
-			path = Api;
+			path = ApiNetwork;
 			sourceTree = "<group>";
 		};
 		2F1DFB0E20F67C2F00C18BEC /* Common */ = {
@@ -224,15 +215,6 @@
 				2F5806A820EE18F90064A3AC /* AgeView.xib */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		2F730A2D20F648A300FC9DBD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				2F730A2E20F648A300FC9DBD /* NetworkModel */,
-				2F730A3020F648A300FC9DBD /* DatabaseModel */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		2F730A2E20F648A300FC9DBD /* NetworkModel */ = {
@@ -311,13 +293,6 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		2FBA167A20F344A600F82F98 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
 		2FBA168620F34F1A00F82F98 /* EventDriver */ = {
 			isa = PBXGroup;
 			children = (
@@ -343,18 +318,6 @@
 				2FBA169120F35DA900F82F98 /* EventDriver.swift */,
 			);
 			path = EventDriver;
-			sourceTree = "<group>";
-		};
-		2FBA169820F360F800F82F98 /* Api */ = {
-			isa = PBXGroup;
-			children = (
-				2F730A2220F6487A00FC9DBD /* BoardOtherApi.swift */,
-				2F730A2120F6487A00FC9DBD /* SearchApi.swift */,
-				2F730A2420F6487A00FC9DBD /* SignApi.swift */,
-				2F730A2520F6487A00FC9DBD /* UserApi.swift */,
-				2F730A2620F6487A00FC9DBD /* WeatherApi.swift */,
-			);
-			path = Api;
 			sourceTree = "<group>";
 		};
 		2FBA169920F36FA900F82F98 /* Utiles */ = {
@@ -418,11 +381,9 @@
 			children = (
 				2F131EBA20F67E9900234CCC /* Task */,
 				2F1DFB0E20F67C2F00C18BEC /* Common */,
-				2F1DFB0B20F67BFA00C18BEC /* Api */,
 				2F730A6420F648B600FC9DBD /* Extension */,
 				2FBA169920F36FA900F82F98 /* Utiles */,
 				2FBA168620F34F1A00F82F98 /* EventDriver */,
-				2FBA167A20F344A600F82F98 /* Network */,
 				7C94DF4520EA0F7A00D23199 /* DependencyInjection */,
 				2FE6A6D120E8A62000E1C9EE /* Storyboard */,
 				2FE6A6CB20E89E6C00E1C9EE /* UserInterface */,
@@ -740,12 +701,8 @@
 				7C47392320F6453700732C3A /* FilterTableViewController.swift in Sources */,
 				7C245F1120ED34EB0070E178 /* MainRecommendCollectionViewCell.swift in Sources */,
 				7C47392720F645B300732C3A /* FilterContentTableViewCell.swift in Sources */,
-				2F730A2820F6487A00FC9DBD /* BoardOtherApi.swift in Sources */,
 				2F730A6C20F653DC00FC9DBD /* Data+setDefault.swift in Sources */,
 				7C47392B20F645F300732C3A /* CommentWriteTableViewCell.swift in Sources */,
-				2F730A2A20F6487A00FC9DBD /* SignApi.swift in Sources */,
-				2F730A2720F6487A00FC9DBD /* SearchApi.swift in Sources */,
-				2F730A2B20F6487A00FC9DBD /* UserApi.swift in Sources */,
 				2F3C99A820EF6CD300D76953 /* SignupScrollViewModel.swift in Sources */,
 				7C245F0B20ED30760070E178 /* MainTableViewHeaderCell.swift in Sources */,
 				2F730A6A20F6504000FC9DBD /* TmpModel.swift in Sources */,
@@ -754,7 +711,6 @@
 				2F730A4B20F648A400FC9DBD /* BoardModel.swift in Sources */,
 				2F730A4D20F648A400FC9DBD /* FollowModel.swift in Sources */,
 				2FBA169020F35D0F00F82F98 /* EventDrivable.swift in Sources */,
-				2F730A2C20F6487A00FC9DBD /* WeatherApi.swift in Sources */,
 				2FE6A6CE20E89EA200E1C9EE /* MainViewModel.swift in Sources */,
 				7C94DF4B20EB717B00D23199 /* AgeView.swift in Sources */,
 				2FBA16A720F3781500F82F98 /* GalleryManager.swift in Sources */,

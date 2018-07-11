@@ -10,9 +10,11 @@
 import UIKit
 import RxSwift
 class SignupView: UIView {
+
     @IBOutlet weak var txtSignupId: UITextField!
     @IBOutlet weak var txtSignupPs: UITextField!
     @IBOutlet weak var txtSignupPscf: UITextField!
+    
     func getSignUpRx() -> (Observable<String?>,Observable<String?>,Observable<String?>){
        
         return (txtSignupId.rx.text.asObservable(),

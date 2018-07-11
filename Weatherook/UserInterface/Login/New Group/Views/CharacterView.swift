@@ -12,13 +12,14 @@ import RxSwift
 
 class CharacterView: UIView {
     
+    
     @IBOutlet weak var txtSignupHeight: UITextField!
-    @IBOutlet weak var txtSingupWeight: UITextField!
+    @IBOutlet weak var txtSignupWeight: UITextField!
     @IBOutlet weak var imgSingupWoman: UIImageView!
     @IBOutlet weak var imgSignupMan: UIImageView!
     
     func getCharRx() -> (Observable<String?>,Observable<String?>){
-        return  (txtSignupHeight.rx.text.asObservable(),txtSingupWeight.rx.text.asObservable())
+        return  (txtSignupHeight.rx.text.asObservable(),txtSignupWeight.rx.text.asObservable())
     }
     
 

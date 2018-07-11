@@ -6,7 +6,7 @@ target 'Weatherook' do
   use_frameworks!
 
   # Pods for Weatherook
-  pod 'RxS wift'
+  pod 'RxSwift'
   pod 'RxCocoa'
   pod 'RxAlamofire'
   pod 'Alamofire'

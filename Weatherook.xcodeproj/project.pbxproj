@@ -40,6 +40,7 @@
 		2F730A6320F648A400FC9DBD /* SignApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A4A20F648A300FC9DBD /* SignApiProtocol.swift */; };
 		2F730A6620F648B600FC9DBD /* URLRequest+setDefaulf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A6520F648B600FC9DBD /* URLRequest+setDefaulf.swift */; };
 		2F730A6820F648CA00FC9DBD /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A6720F648C900FC9DBD /* Const.swift */; };
+		2F730A6A20F6504000FC9DBD /* TmpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A6920F6504000FC9DBD /* TmpModel.swift */; };
 		2FA9C0AB20EE02F9005DF55E /* ViewControllerInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0AA20EE02F9005DF55E /* ViewControllerInjector.swift */; };
 		2FA9C0B120EE05C5005DF55E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0B020EE05C5005DF55E /* LoginViewModel.swift */; };
 		2FA9C0B320EE05D1005DF55E /* LoginViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0B220EE05D1005DF55E /* LoginViewModeling.swift */; };
@@ -125,6 +126,7 @@
 		2F730A4A20F648A300FC9DBD /* SignApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignApiProtocol.swift; sourceTree = "<group>"; };
 		2F730A6520F648B600FC9DBD /* URLRequest+setDefaulf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+setDefaulf.swift"; sourceTree = "<group>"; };
 		2F730A6720F648C900FC9DBD /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Const.swift; path = ../../../../iOS/Weatherook/Const/Const.swift; sourceTree = "<group>"; };
+		2F730A6920F6504000FC9DBD /* TmpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmpModel.swift; sourceTree = "<group>"; };
 		2FA9C0AA20EE02F9005DF55E /* ViewControllerInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerInjector.swift; sourceTree = SOURCE_ROOT; };
 		2FA9C0B020EE05C5005DF55E /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		2FA9C0B220EE05D1005DF55E /* LoginViewModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModeling.swift; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				2F730A2F20F648A300FC9DBD /* BoardModel.swift */,
+				2F730A6920F6504000FC9DBD /* TmpModel.swift */,
 			);
 			path = NetworkModel;
 			sourceTree = "<group>";
@@ -752,6 +755,7 @@
 				2F730A2B20F6487A00FC9DBD /* UserApi.swift in Sources */,
 				2F3C99A820EF6CD300D76953 /* SignupScrollViewModel.swift in Sources */,
 				7C245F0B20ED30760070E178 /* MainTableViewHeaderCell.swift in Sources */,
+				2F730A6A20F6504000FC9DBD /* TmpModel.swift in Sources */,
 				2FBA16A920F3782700F82F98 /* GallerManagerModeling.swift in Sources */,
 				7C94DF5520EC74D400D23199 /* MypageSettingTableViewController.swift in Sources */,
 				2F730A4B20F648A400FC9DBD /* BoardModel.swift in Sources */,

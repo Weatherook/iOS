@@ -95,6 +95,7 @@
 /* Begin PBXFileReference section */
 		207AC513564BAE4DE67FB2D6 /* Pods_Weatherook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weatherook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E109C6847993D4B974BA9E6 /* Pods-Weatherook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weatherook.release.xcconfig"; path = "Pods/Target Support Files/Pods-Weatherook/Pods-Weatherook.release.xcconfig"; sourceTree = "<group>"; };
+		2F1DFB0A20F67B0D00C18BEC /* Weatherook copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Weatherook copy-Info.plist"; path = "/Users/iyeongjun/Desktop/ios3/iOS/Weatherook copy-Info.plist"; sourceTree = "<absolute>"; };
 		2F3C99A720EF6CD300D76953 /* SignupScrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScrollViewModel.swift; sourceTree = "<group>"; };
 		2F3C99A920EF6CEB00D76953 /* SignupScrollViewModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScrollViewModeling.swift; sourceTree = "<group>"; };
 		2F5806A620EE18E20064A3AC /* CharacterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterView.xib; sourceTree = "<group>"; };
@@ -413,6 +414,7 @@
 				2FE6A6B720E8953000E1C9EE /* Products */,
 				4227EB1ECA59AF0B85BB4557 /* Pods */,
 				2EFE73F725B749562BBCF07C /* Frameworks */,
+				2F1DFB0A20F67B0D00C18BEC /* Weatherook copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};

@@ -25,13 +25,15 @@ class SignupScrollViewController: UIViewController {
         scrollview.delegate = self
         setupSlideScrollView(slides: (model?.viewList)!)
         bind()
-        
+        test()
         // Do any additional setup after loading the view.
     }
 }
 
 // View 관련
-
+func test(){
+    let signapi = SignApi().signin(id: "awesome33", pw: "we0001")
+}
 extension SignupScrollViewController {
     func bind(){
         let _ = model?.obs.subscribe{ [weak self] event in

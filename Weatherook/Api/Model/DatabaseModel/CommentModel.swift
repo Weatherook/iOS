@@ -16,7 +16,6 @@ import Alamofire
 class UserBoard: Codable {
     let likeIdx, userIdx: Int?
     let likeDate: String?
-    
     enum CodingKeys: String, CodingKey {
         case likeIdx = "like_idx"
         case userIdx = "user_idx"

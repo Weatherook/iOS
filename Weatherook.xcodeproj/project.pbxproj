@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2741C679590E3573F3CA6052 /* Pods_Weatherook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207AC513564BAE4DE67FB2D6 /* Pods_Weatherook.framework */; };
+		2F1DFB1020F67C3900C18BEC /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1DFB0F20F67C3900C18BEC /* Const.swift */; };
 		2F3C99A820EF6CD300D76953 /* SignupScrollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C99A720EF6CD300D76953 /* SignupScrollViewModel.swift */; };
 		2F3C99AA20EF6CEB00D76953 /* SignupScrollViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C99A920EF6CEB00D76953 /* SignupScrollViewModeling.swift */; };
 		2F5806A720EE18E20064A3AC /* CharacterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5806A620EE18E20064A3AC /* CharacterView.xib */; };
@@ -32,14 +33,7 @@
 		2F730A5520F648A400FC9DBD /* LikeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A3A20F648A300FC9DBD /* LikeModel.swift */; };
 		2F730A5620F648A400FC9DBD /* UserStyleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A3B20F648A300FC9DBD /* UserStyleModel.swift */; };
 		2F730A5720F648A400FC9DBD /* BoardStyleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A3C20F648A300FC9DBD /* BoardStyleModel.swift */; };
-		2F730A5E20F648A400FC9DBD /* WeatherApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A4520F648A300FC9DBD /* WeatherApiProtocol.swift */; };
-		2F730A5F20F648A400FC9DBD /* BoardOtherApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A4620F648A300FC9DBD /* BoardOtherApiProtocol.swift */; };
-		2F730A6020F648A400FC9DBD /* UserApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A4720F648A300FC9DBD /* UserApiProtocol.swift */; };
-		2F730A6120F648A400FC9DBD /* SearchApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A4820F648A300FC9DBD /* SearchApiProtocol.swift */; };
-		2F730A6220F648A400FC9DBD /* BoardApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A4920F648A300FC9DBD /* BoardApiProtocol.swift */; };
-		2F730A6320F648A400FC9DBD /* SignApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A4A20F648A300FC9DBD /* SignApiProtocol.swift */; };
 		2F730A6620F648B600FC9DBD /* URLRequest+setDefaulf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A6520F648B600FC9DBD /* URLRequest+setDefaulf.swift */; };
-		2F730A6820F648CA00FC9DBD /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A6720F648C900FC9DBD /* Const.swift */; };
 		2F730A6A20F6504000FC9DBD /* TmpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A6920F6504000FC9DBD /* TmpModel.swift */; };
 		2F730A6C20F653DC00FC9DBD /* Data+setDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A6B20F653DC00FC9DBD /* Data+setDefault.swift */; };
 		2FA9C0AB20EE02F9005DF55E /* ViewControllerInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0AA20EE02F9005DF55E /* ViewControllerInjector.swift */; };
@@ -96,6 +90,7 @@
 		207AC513564BAE4DE67FB2D6 /* Pods_Weatherook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weatherook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E109C6847993D4B974BA9E6 /* Pods-Weatherook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weatherook.release.xcconfig"; path = "Pods/Target Support Files/Pods-Weatherook/Pods-Weatherook.release.xcconfig"; sourceTree = "<group>"; };
 		2F1DFB0A20F67B0D00C18BEC /* Weatherook copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Weatherook copy-Info.plist"; path = "/Users/iyeongjun/Desktop/ios3/iOS/Weatherook copy-Info.plist"; sourceTree = "<absolute>"; };
+		2F1DFB0F20F67C3900C18BEC /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		2F3C99A720EF6CD300D76953 /* SignupScrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScrollViewModel.swift; sourceTree = "<group>"; };
 		2F3C99A920EF6CEB00D76953 /* SignupScrollViewModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScrollViewModeling.swift; sourceTree = "<group>"; };
 		2F5806A620EE18E20064A3AC /* CharacterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterView.xib; sourceTree = "<group>"; };
@@ -120,14 +115,7 @@
 		2F730A3A20F648A300FC9DBD /* LikeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeModel.swift; sourceTree = "<group>"; };
 		2F730A3B20F648A300FC9DBD /* UserStyleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStyleModel.swift; sourceTree = "<group>"; };
 		2F730A3C20F648A300FC9DBD /* BoardStyleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardStyleModel.swift; sourceTree = "<group>"; };
-		2F730A4520F648A300FC9DBD /* WeatherApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherApiProtocol.swift; sourceTree = "<group>"; };
-		2F730A4620F648A300FC9DBD /* BoardOtherApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardOtherApiProtocol.swift; sourceTree = "<group>"; };
-		2F730A4720F648A300FC9DBD /* UserApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserApiProtocol.swift; sourceTree = "<group>"; };
-		2F730A4820F648A300FC9DBD /* SearchApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchApiProtocol.swift; sourceTree = "<group>"; };
-		2F730A4920F648A300FC9DBD /* BoardApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardApiProtocol.swift; sourceTree = "<group>"; };
-		2F730A4A20F648A300FC9DBD /* SignApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignApiProtocol.swift; sourceTree = "<group>"; };
 		2F730A6520F648B600FC9DBD /* URLRequest+setDefaulf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+setDefaulf.swift"; sourceTree = "<group>"; };
-		2F730A6720F648C900FC9DBD /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Const.swift; path = ../../../../iOS/Weatherook/Const/Const.swift; sourceTree = "<group>"; };
 		2F730A6920F6504000FC9DBD /* TmpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmpModel.swift; sourceTree = "<group>"; };
 		2F730A6B20F653DC00FC9DBD /* Data+setDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+setDefault.swift"; sourceTree = "<group>"; };
 		2FA9C0AA20EE02F9005DF55E /* ViewControllerInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerInjector.swift; sourceTree = SOURCE_ROOT; };
@@ -203,6 +191,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2F1DFB0B20F67BFA00C18BEC /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				2F730A2D20F648A300FC9DBD /* Model */,
+				2FBA169820F360F800F82F98 /* Api */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		2F1DFB0E20F67C2F00C18BEC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2F1DFB0F20F67C3900C18BEC /* Const.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		2F5806AC20EE37CA0064A3AC /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,20 +253,6 @@
 				2F730A3C20F648A300FC9DBD /* BoardStyleModel.swift */,
 			);
 			path = DatabaseModel;
-			sourceTree = "<group>";
-		};
-		2F730A4420F648A300FC9DBD /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				2F730A4520F648A300FC9DBD /* WeatherApiProtocol.swift */,
-				2F730A4620F648A300FC9DBD /* BoardOtherApiProtocol.swift */,
-				2F730A4720F648A300FC9DBD /* UserApiProtocol.swift */,
-				2F730A4820F648A300FC9DBD /* SearchApiProtocol.swift */,
-				2F730A4920F648A300FC9DBD /* BoardApiProtocol.swift */,
-				2F730A4A20F648A300FC9DBD /* SignApiProtocol.swift */,
-			);
-			name = Protocol;
-			path = ../../../../iOS/Weatherook/Network/Protocol;
 			sourceTree = "<group>";
 		};
 		2F730A6420F648B600FC9DBD /* Extension */ = {
@@ -315,19 +306,8 @@
 		2FBA167A20F344A600F82F98 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				2F730A2D20F648A300FC9DBD /* Model */,
-				2F730A4420F648A300FC9DBD /* Protocol */,
-				2FBA169820F360F800F82F98 /* Api */,
 			);
 			path = Network;
-			sourceTree = "<group>";
-		};
-		2FBA168220F3493B00F82F98 /* Const */ = {
-			isa = PBXGroup;
-			children = (
-				2F730A6720F648C900FC9DBD /* Const.swift */,
-			);
-			path = Const;
 			sourceTree = "<group>";
 		};
 		2FBA168620F34F1A00F82F98 /* EventDriver */ = {
@@ -429,10 +409,11 @@
 		2FE6A6B820E8953000E1C9EE /* Weatherook */ = {
 			isa = PBXGroup;
 			children = (
+				2F1DFB0E20F67C2F00C18BEC /* Common */,
+				2F1DFB0B20F67BFA00C18BEC /* Api */,
 				2F730A6420F648B600FC9DBD /* Extension */,
 				2FBA169920F36FA900F82F98 /* Utiles */,
 				2FBA168620F34F1A00F82F98 /* EventDriver */,
-				2FBA168220F3493B00F82F98 /* Const */,
 				2FBA167A20F344A600F82F98 /* Network */,
 				7C94DF4520EA0F7A00D23199 /* DependencyInjection */,
 				2FE6A6D120E8A62000E1C9EE /* Storyboard */,
@@ -718,8 +699,6 @@
 				2FBA169220F35DA900F82F98 /* EventDriver.swift in Sources */,
 				2F730A4F20F648A400FC9DBD /* StyleModel.swift in Sources */,
 				7C60275320E9F2A40010AF12 /* WriteViewController.swift in Sources */,
-				2F730A6320F648A400FC9DBD /* SignApiProtocol.swift in Sources */,
-				2F730A6020F648A400FC9DBD /* UserApiProtocol.swift in Sources */,
 				2FBA169720F35E4000F82F98 /* NetworkDriver.swift in Sources */,
 				7C94DF4D20EB7BC900D23199 /* CharacterView.swift in Sources */,
 				2F730A4E20F648A400FC9DBD /* BoardCommendModel.swift in Sources */,
@@ -732,7 +711,6 @@
 				2FE6A6BA20E8953000E1C9EE /* AppDelegate.swift in Sources */,
 				2F730A6620F648B600FC9DBD /* URLRequest+setDefaulf.swift in Sources */,
 				2F730A5020F648A400FC9DBD /* CommentUserModel.swift in Sources */,
-				2F730A5E20F648A400FC9DBD /* WeatherApiProtocol.swift in Sources */,
 				7C94DF5120EC607D00D23199 /* NewsTableViewController.swift in Sources */,
 				2FE6A6D020E8A5E300E1C9EE /* MainViewModelDelegate.swift in Sources */,
 				7C245F0D20ED30C60070E178 /* MainboardTableViewCell.swift in Sources */,
@@ -771,17 +749,14 @@
 				2F730A2C20F6487A00FC9DBD /* WeatherApi.swift in Sources */,
 				2FE6A6CE20E89EA200E1C9EE /* MainViewModel.swift in Sources */,
 				7C94DF4B20EB717B00D23199 /* AgeView.swift in Sources */,
-				2F730A5F20F648A400FC9DBD /* BoardOtherApiProtocol.swift in Sources */,
 				2FBA16A720F3781500F82F98 /* GalleryManager.swift in Sources */,
 				2FBA16A520F3777800F82F98 /* CameraManager.swift in Sources */,
 				7C60275720E9F2B30010AF12 /* MypageViewController.swift in Sources */,
-				2F730A6220F648A400FC9DBD /* BoardApiProtocol.swift in Sources */,
 				7C60275920E9FB0D0010AF12 /* MainViewController.swift in Sources */,
-				2F730A6120F648A400FC9DBD /* SearchApiProtocol.swift in Sources */,
 				2FA9C0B120EE05C5005DF55E /* LoginViewModel.swift in Sources */,
 				2FBA16A220F374B700F82F98 /* LocationManagerModeling.swift in Sources */,
 				2F730A5420F648A400FC9DBD /* WeatherShowModel.swift in Sources */,
-				2F730A6820F648CA00FC9DBD /* Const.swift in Sources */,
+				2F1DFB1020F67C3900C18BEC /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

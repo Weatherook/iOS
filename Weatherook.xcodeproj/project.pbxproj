@@ -41,6 +41,7 @@
 		2F730A6620F648B600FC9DBD /* URLRequest+setDefaulf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A6520F648B600FC9DBD /* URLRequest+setDefaulf.swift */; };
 		2F730A6820F648CA00FC9DBD /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A6720F648C900FC9DBD /* Const.swift */; };
 		2F730A6A20F6504000FC9DBD /* TmpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A6920F6504000FC9DBD /* TmpModel.swift */; };
+		2F730A6C20F653DC00FC9DBD /* Data+setDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A6B20F653DC00FC9DBD /* Data+setDefault.swift */; };
 		2FA9C0AB20EE02F9005DF55E /* ViewControllerInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0AA20EE02F9005DF55E /* ViewControllerInjector.swift */; };
 		2FA9C0B120EE05C5005DF55E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0B020EE05C5005DF55E /* LoginViewModel.swift */; };
 		2FA9C0B320EE05D1005DF55E /* LoginViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0B220EE05D1005DF55E /* LoginViewModeling.swift */; };
@@ -127,6 +128,7 @@
 		2F730A6520F648B600FC9DBD /* URLRequest+setDefaulf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+setDefaulf.swift"; sourceTree = "<group>"; };
 		2F730A6720F648C900FC9DBD /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Const.swift; path = ../../../../iOS/Weatherook/Const/Const.swift; sourceTree = "<group>"; };
 		2F730A6920F6504000FC9DBD /* TmpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmpModel.swift; sourceTree = "<group>"; };
+		2F730A6B20F653DC00FC9DBD /* Data+setDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+setDefault.swift"; sourceTree = "<group>"; };
 		2FA9C0AA20EE02F9005DF55E /* ViewControllerInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerInjector.swift; sourceTree = SOURCE_ROOT; };
 		2FA9C0B020EE05C5005DF55E /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		2FA9C0B220EE05D1005DF55E /* LoginViewModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModeling.swift; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				2F730A6520F648B600FC9DBD /* URLRequest+setDefaulf.swift */,
+				2F730A6B20F653DC00FC9DBD /* Data+setDefault.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -749,6 +752,7 @@
 				7C245F1120ED34EB0070E178 /* MainRecommendCollectionViewCell.swift in Sources */,
 				7C47392720F645B300732C3A /* FilterContentTableViewCell.swift in Sources */,
 				2F730A2820F6487A00FC9DBD /* BoardOtherApi.swift in Sources */,
+				2F730A6C20F653DC00FC9DBD /* Data+setDefault.swift in Sources */,
 				7C47392B20F645F300732C3A /* CommentWriteTableViewCell.swift in Sources */,
 				2F730A2A20F6487A00FC9DBD /* SignApi.swift in Sources */,
 				2F730A2720F6487A00FC9DBD /* SearchApi.swift in Sources */,

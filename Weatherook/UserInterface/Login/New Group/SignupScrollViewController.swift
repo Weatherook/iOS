@@ -24,6 +24,7 @@ class SignupScrollViewController: UIViewController {
         super.viewDidLoad()
         scrollview.delegate = self
         setupSlideScrollView(slides: (model?.viewList)!)
+        print("=========================")
         bind()
         test()
         // Do any additional setup after loading the view.
@@ -32,8 +33,15 @@ class SignupScrollViewController: UIViewController {
 
 // View 관련
 func test(){
-    let signapi = SignApi().signin(id: "awesome33", pw: "we0001")
+    let a = SignApi()
+    a.signin(id: "awesome33", pw: "we0001")
+    a.signup(id: "dddd@nvaer.com", pw: "ddddd123", gender: "남", age: 20, height: 160, weight: 100, style: ["댄디","빈티지"])
+//    let b = BoardApi()
+//    b.getBoard(boardIdx: 3).responseJSON{
+//        print($0)
+//    }
 }
+
 extension SignupScrollViewController {
     func bind(){
         let _ = model?.obs.subscribe{ [weak self] event in

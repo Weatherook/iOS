@@ -10,20 +10,40 @@
 		2741C679590E3573F3CA6052 /* Pods_Weatherook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207AC513564BAE4DE67FB2D6 /* Pods_Weatherook.framework */; };
 		2F3C99A820EF6CD300D76953 /* SignupScrollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C99A720EF6CD300D76953 /* SignupScrollViewModel.swift */; };
 		2F3C99AA20EF6CEB00D76953 /* SignupScrollViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C99A920EF6CEB00D76953 /* SignupScrollViewModeling.swift */; };
-		2F4A4C5420F4B2140046A34B /* SignApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A4C4E20F4B2140046A34B /* SignApi.swift */; };
-		2F4A4C5520F4B2140046A34B /* WeatherApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A4C4F20F4B2140046A34B /* WeatherApi.swift */; };
-		2F4A4C5620F4B2140046A34B /* BoardApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A4C5020F4B2140046A34B /* BoardApi.swift */; };
-		2F4A4C5720F4B2140046A34B /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A4C5120F4B2140046A34B /* UserApi.swift */; };
-		2F4A4C5820F4B2140046A34B /* BoardOtherApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A4C5220F4B2140046A34B /* BoardOtherApi.swift */; };
-		2F4A4C5920F4B2140046A34B /* SearchApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A4C5320F4B2140046A34B /* SearchApi.swift */; };
 		2F5806A720EE18E20064A3AC /* CharacterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5806A620EE18E20064A3AC /* CharacterView.xib */; };
 		2F5806A920EE18F90064A3AC /* AgeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5806A820EE18F90064A3AC /* AgeView.xib */; };
 		2F5806AB20EE19060064A3AC /* SignupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5806AA20EE19060064A3AC /* SignupView.xib */; };
+		2F730A2720F6487A00FC9DBD /* SearchApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A2120F6487A00FC9DBD /* SearchApi.swift */; };
+		2F730A2820F6487A00FC9DBD /* BoardOtherApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A2220F6487A00FC9DBD /* BoardOtherApi.swift */; };
+		2F730A2920F6487A00FC9DBD /* BoardApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A2320F6487A00FC9DBD /* BoardApi.swift */; };
+		2F730A2A20F6487A00FC9DBD /* SignApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A2420F6487A00FC9DBD /* SignApi.swift */; };
+		2F730A2B20F6487A00FC9DBD /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A2520F6487A00FC9DBD /* UserApi.swift */; };
+		2F730A2C20F6487A00FC9DBD /* WeatherApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A2620F6487A00FC9DBD /* WeatherApi.swift */; };
+		2F730A4B20F648A400FC9DBD /* BoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A2F20F648A300FC9DBD /* BoardModel.swift */; };
+		2F730A4C20F648A400FC9DBD /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A3120F648A300FC9DBD /* CommentModel.swift */; };
+		2F730A4D20F648A400FC9DBD /* FollowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A3220F648A300FC9DBD /* FollowModel.swift */; };
+		2F730A4E20F648A400FC9DBD /* BoardCommendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A3320F648A300FC9DBD /* BoardCommendModel.swift */; };
+		2F730A4F20F648A400FC9DBD /* StyleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A3420F648A300FC9DBD /* StyleModel.swift */; };
+		2F730A5020F648A400FC9DBD /* CommentUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A3520F648A300FC9DBD /* CommentUserModel.swift */; };
+		2F730A5120F648A400FC9DBD /* UserBoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A3620F648A300FC9DBD /* UserBoardModel.swift */; };
+		2F730A5220F648A400FC9DBD /* BoardLikeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A3720F648A300FC9DBD /* BoardLikeModel.swift */; };
+		2F730A5320F648A400FC9DBD /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A3820F648A300FC9DBD /* UserModel.swift */; };
+		2F730A5420F648A400FC9DBD /* WeatherShowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A3920F648A300FC9DBD /* WeatherShowModel.swift */; };
+		2F730A5520F648A400FC9DBD /* LikeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A3A20F648A300FC9DBD /* LikeModel.swift */; };
+		2F730A5620F648A400FC9DBD /* UserStyleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A3B20F648A300FC9DBD /* UserStyleModel.swift */; };
+		2F730A5720F648A400FC9DBD /* BoardStyleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A3C20F648A300FC9DBD /* BoardStyleModel.swift */; };
+		2F730A5E20F648A400FC9DBD /* WeatherApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A4520F648A300FC9DBD /* WeatherApiProtocol.swift */; };
+		2F730A5F20F648A400FC9DBD /* BoardOtherApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A4620F648A300FC9DBD /* BoardOtherApiProtocol.swift */; };
+		2F730A6020F648A400FC9DBD /* UserApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A4720F648A300FC9DBD /* UserApiProtocol.swift */; };
+		2F730A6120F648A400FC9DBD /* SearchApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A4820F648A300FC9DBD /* SearchApiProtocol.swift */; };
+		2F730A6220F648A400FC9DBD /* BoardApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A4920F648A300FC9DBD /* BoardApiProtocol.swift */; };
+		2F730A6320F648A400FC9DBD /* SignApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A4A20F648A300FC9DBD /* SignApiProtocol.swift */; };
+		2F730A6620F648B600FC9DBD /* URLRequest+setDefaulf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A6520F648B600FC9DBD /* URLRequest+setDefaulf.swift */; };
+		2F730A6820F648CA00FC9DBD /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A6720F648C900FC9DBD /* Const.swift */; };
 		2FA9C0AB20EE02F9005DF55E /* ViewControllerInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0AA20EE02F9005DF55E /* ViewControllerInjector.swift */; };
 		2FA9C0B120EE05C5005DF55E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0B020EE05C5005DF55E /* LoginViewModel.swift */; };
 		2FA9C0B320EE05D1005DF55E /* LoginViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0B220EE05D1005DF55E /* LoginViewModeling.swift */; };
 		2FA9C0C720EE09E8005DF55E /* SignupScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C0C620EE09E8005DF55E /* SignupScrollViewController.swift */; };
-		2FBA168420F3494600F82F98 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA168320F3494600F82F98 /* Const.swift */; };
 		2FBA169020F35D0F00F82F98 /* EventDrivable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA168F20F35D0F00F82F98 /* EventDrivable.swift */; };
 		2FBA169220F35DA900F82F98 /* EventDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA169120F35DA900F82F98 /* EventDriver.swift */; };
 		2FBA169420F35E1700F82F98 /* NetworkDrivable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA169320F35E1700F82F98 /* NetworkDrivable.swift */; };
@@ -75,20 +95,40 @@
 		2E109C6847993D4B974BA9E6 /* Pods-Weatherook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weatherook.release.xcconfig"; path = "Pods/Target Support Files/Pods-Weatherook/Pods-Weatherook.release.xcconfig"; sourceTree = "<group>"; };
 		2F3C99A720EF6CD300D76953 /* SignupScrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScrollViewModel.swift; sourceTree = "<group>"; };
 		2F3C99A920EF6CEB00D76953 /* SignupScrollViewModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScrollViewModeling.swift; sourceTree = "<group>"; };
-		2F4A4C4E20F4B2140046A34B /* SignApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignApi.swift; sourceTree = "<group>"; };
-		2F4A4C4F20F4B2140046A34B /* WeatherApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherApi.swift; sourceTree = "<group>"; };
-		2F4A4C5020F4B2140046A34B /* BoardApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardApi.swift; sourceTree = "<group>"; };
-		2F4A4C5120F4B2140046A34B /* UserApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
-		2F4A4C5220F4B2140046A34B /* BoardOtherApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardOtherApi.swift; sourceTree = "<group>"; };
-		2F4A4C5320F4B2140046A34B /* SearchApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchApi.swift; sourceTree = "<group>"; };
 		2F5806A620EE18E20064A3AC /* CharacterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterView.xib; sourceTree = "<group>"; };
 		2F5806A820EE18F90064A3AC /* AgeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AgeView.xib; sourceTree = "<group>"; };
 		2F5806AA20EE19060064A3AC /* SignupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignupView.xib; sourceTree = "<group>"; };
+		2F730A2120F6487A00FC9DBD /* SearchApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchApi.swift; path = ../../../../../iOS/Weatherook/Network/Api/SearchApi.swift; sourceTree = "<group>"; };
+		2F730A2220F6487A00FC9DBD /* BoardOtherApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BoardOtherApi.swift; path = ../../../../../iOS/Weatherook/Network/Api/BoardOtherApi.swift; sourceTree = "<group>"; };
+		2F730A2320F6487A00FC9DBD /* BoardApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BoardApi.swift; path = ../../../../../iOS/Weatherook/Network/Api/BoardApi.swift; sourceTree = "<group>"; };
+		2F730A2420F6487A00FC9DBD /* SignApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignApi.swift; path = ../../../../../iOS/Weatherook/Network/Api/SignApi.swift; sourceTree = "<group>"; };
+		2F730A2520F6487A00FC9DBD /* UserApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserApi.swift; path = ../../../../../iOS/Weatherook/Network/Api/UserApi.swift; sourceTree = "<group>"; };
+		2F730A2620F6487A00FC9DBD /* WeatherApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherApi.swift; path = ../../../../../iOS/Weatherook/Network/Api/WeatherApi.swift; sourceTree = "<group>"; };
+		2F730A2F20F648A300FC9DBD /* BoardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardModel.swift; sourceTree = "<group>"; };
+		2F730A3120F648A300FC9DBD /* CommentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		2F730A3220F648A300FC9DBD /* FollowModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowModel.swift; sourceTree = "<group>"; };
+		2F730A3320F648A300FC9DBD /* BoardCommendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardCommendModel.swift; sourceTree = "<group>"; };
+		2F730A3420F648A300FC9DBD /* StyleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleModel.swift; sourceTree = "<group>"; };
+		2F730A3520F648A300FC9DBD /* CommentUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentUserModel.swift; sourceTree = "<group>"; };
+		2F730A3620F648A300FC9DBD /* UserBoardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserBoardModel.swift; sourceTree = "<group>"; };
+		2F730A3720F648A300FC9DBD /* BoardLikeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardLikeModel.swift; sourceTree = "<group>"; };
+		2F730A3820F648A300FC9DBD /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		2F730A3920F648A300FC9DBD /* WeatherShowModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherShowModel.swift; sourceTree = "<group>"; };
+		2F730A3A20F648A300FC9DBD /* LikeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeModel.swift; sourceTree = "<group>"; };
+		2F730A3B20F648A300FC9DBD /* UserStyleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStyleModel.swift; sourceTree = "<group>"; };
+		2F730A3C20F648A300FC9DBD /* BoardStyleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardStyleModel.swift; sourceTree = "<group>"; };
+		2F730A4520F648A300FC9DBD /* WeatherApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherApiProtocol.swift; sourceTree = "<group>"; };
+		2F730A4620F648A300FC9DBD /* BoardOtherApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardOtherApiProtocol.swift; sourceTree = "<group>"; };
+		2F730A4720F648A300FC9DBD /* UserApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserApiProtocol.swift; sourceTree = "<group>"; };
+		2F730A4820F648A300FC9DBD /* SearchApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchApiProtocol.swift; sourceTree = "<group>"; };
+		2F730A4920F648A300FC9DBD /* BoardApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardApiProtocol.swift; sourceTree = "<group>"; };
+		2F730A4A20F648A300FC9DBD /* SignApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignApiProtocol.swift; sourceTree = "<group>"; };
+		2F730A6520F648B600FC9DBD /* URLRequest+setDefaulf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+setDefaulf.swift"; sourceTree = "<group>"; };
+		2F730A6720F648C900FC9DBD /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Const.swift; path = ../../../../iOS/Weatherook/Const/Const.swift; sourceTree = "<group>"; };
 		2FA9C0AA20EE02F9005DF55E /* ViewControllerInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerInjector.swift; sourceTree = SOURCE_ROOT; };
 		2FA9C0B020EE05C5005DF55E /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		2FA9C0B220EE05D1005DF55E /* LoginViewModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModeling.swift; sourceTree = "<group>"; };
 		2FA9C0C620EE09E8005DF55E /* SignupScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScrollViewController.swift; sourceTree = "<group>"; };
-		2FBA168320F3494600F82F98 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		2FBA168F20F35D0F00F82F98 /* EventDrivable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDrivable.swift; sourceTree = "<group>"; };
 		2FBA169120F35DA900F82F98 /* EventDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDriver.swift; sourceTree = "<group>"; };
 		2FBA169320F35E1700F82F98 /* NetworkDrivable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDrivable.swift; sourceTree = "<group>"; };
@@ -168,6 +208,64 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		2F730A2D20F648A300FC9DBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F730A2E20F648A300FC9DBD /* NetworkModel */,
+				2F730A3020F648A300FC9DBD /* DatabaseModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F730A2E20F648A300FC9DBD /* NetworkModel */ = {
+			isa = PBXGroup;
+			children = (
+				2F730A2F20F648A300FC9DBD /* BoardModel.swift */,
+			);
+			path = NetworkModel;
+			sourceTree = "<group>";
+		};
+		2F730A3020F648A300FC9DBD /* DatabaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				2F730A3120F648A300FC9DBD /* CommentModel.swift */,
+				2F730A3220F648A300FC9DBD /* FollowModel.swift */,
+				2F730A3320F648A300FC9DBD /* BoardCommendModel.swift */,
+				2F730A3420F648A300FC9DBD /* StyleModel.swift */,
+				2F730A3520F648A300FC9DBD /* CommentUserModel.swift */,
+				2F730A3620F648A300FC9DBD /* UserBoardModel.swift */,
+				2F730A3720F648A300FC9DBD /* BoardLikeModel.swift */,
+				2F730A3820F648A300FC9DBD /* UserModel.swift */,
+				2F730A3920F648A300FC9DBD /* WeatherShowModel.swift */,
+				2F730A3A20F648A300FC9DBD /* LikeModel.swift */,
+				2F730A3B20F648A300FC9DBD /* UserStyleModel.swift */,
+				2F730A3C20F648A300FC9DBD /* BoardStyleModel.swift */,
+			);
+			path = DatabaseModel;
+			sourceTree = "<group>";
+		};
+		2F730A4420F648A300FC9DBD /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				2F730A4520F648A300FC9DBD /* WeatherApiProtocol.swift */,
+				2F730A4620F648A300FC9DBD /* BoardOtherApiProtocol.swift */,
+				2F730A4720F648A300FC9DBD /* UserApiProtocol.swift */,
+				2F730A4820F648A300FC9DBD /* SearchApiProtocol.swift */,
+				2F730A4920F648A300FC9DBD /* BoardApiProtocol.swift */,
+				2F730A4A20F648A300FC9DBD /* SignApiProtocol.swift */,
+			);
+			name = Protocol;
+			path = ../../../../iOS/Weatherook/Network/Protocol;
+			sourceTree = "<group>";
+		};
+		2F730A6420F648B600FC9DBD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2F730A6520F648B600FC9DBD /* URLRequest+setDefaulf.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		2FA9C0AC20EE039E005DF55E /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +308,8 @@
 		2FBA167A20F344A600F82F98 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				2F730A2D20F648A300FC9DBD /* Model */,
+				2F730A4420F648A300FC9DBD /* Protocol */,
 				2FBA169820F360F800F82F98 /* Api */,
 			);
 			path = Network;
@@ -218,7 +318,7 @@
 		2FBA168220F3493B00F82F98 /* Const */ = {
 			isa = PBXGroup;
 			children = (
-				2FBA168320F3494600F82F98 /* Const.swift */,
+				2F730A6720F648C900FC9DBD /* Const.swift */,
 			);
 			path = Const;
 			sourceTree = "<group>";
@@ -253,12 +353,12 @@
 		2FBA169820F360F800F82F98 /* Api */ = {
 			isa = PBXGroup;
 			children = (
-				2F4A4C5020F4B2140046A34B /* BoardApi.swift */,
-				2F4A4C5220F4B2140046A34B /* BoardOtherApi.swift */,
-				2F4A4C5320F4B2140046A34B /* SearchApi.swift */,
-				2F4A4C4E20F4B2140046A34B /* SignApi.swift */,
-				2F4A4C5120F4B2140046A34B /* UserApi.swift */,
-				2F4A4C4F20F4B2140046A34B /* WeatherApi.swift */,
+				2F730A2320F6487A00FC9DBD /* BoardApi.swift */,
+				2F730A2220F6487A00FC9DBD /* BoardOtherApi.swift */,
+				2F730A2120F6487A00FC9DBD /* SearchApi.swift */,
+				2F730A2420F6487A00FC9DBD /* SignApi.swift */,
+				2F730A2520F6487A00FC9DBD /* UserApi.swift */,
+				2F730A2620F6487A00FC9DBD /* WeatherApi.swift */,
 			);
 			path = Api;
 			sourceTree = "<group>";
@@ -321,6 +421,7 @@
 		2FE6A6B820E8953000E1C9EE /* Weatherook */ = {
 			isa = PBXGroup;
 			children = (
+				2F730A6420F648B600FC9DBD /* Extension */,
 				2FBA169920F36FA900F82F98 /* Utiles */,
 				2FBA168620F34F1A00F82F98 /* EventDriver */,
 				2FBA168220F3493B00F82F98 /* Const */,
@@ -607,50 +708,70 @@
 				7C60275C20E9FBD00010AF12 /* LoginViewController.swift in Sources */,
 				7C47392520F645A600732C3A /* CommentTableViewCell.swift in Sources */,
 				2FBA169220F35DA900F82F98 /* EventDriver.swift in Sources */,
+				2F730A4F20F648A400FC9DBD /* StyleModel.swift in Sources */,
 				7C60275320E9F2A40010AF12 /* WriteViewController.swift in Sources */,
+				2F730A6320F648A400FC9DBD /* SignApiProtocol.swift in Sources */,
+				2F730A6020F648A400FC9DBD /* UserApiProtocol.swift in Sources */,
 				2FBA169720F35E4000F82F98 /* NetworkDriver.swift in Sources */,
-				2F4A4C5520F4B2140046A34B /* WeatherApi.swift in Sources */,
 				7C94DF4D20EB7BC900D23199 /* CharacterView.swift in Sources */,
+				2F730A4E20F648A400FC9DBD /* BoardCommendModel.swift in Sources */,
 				7C94DF4920EA3BDA00D23199 /* SignupView.swift in Sources */,
 				7C245F0920ED30430070E178 /* MainTableViewController.swift in Sources */,
-				2F4A4C5420F4B2140046A34B /* SignApi.swift in Sources */,
-				2F4A4C5620F4B2140046A34B /* BoardApi.swift in Sources */,
+				2F730A5520F648A400FC9DBD /* LikeModel.swift in Sources */,
+				2F730A4C20F648A400FC9DBD /* CommentModel.swift in Sources */,
+				2F730A5620F648A400FC9DBD /* UserStyleModel.swift in Sources */,
 				2FBA169420F35E1700F82F98 /* NetworkDrivable.swift in Sources */,
 				2FE6A6BA20E8953000E1C9EE /* AppDelegate.swift in Sources */,
+				2F730A6620F648B600FC9DBD /* URLRequest+setDefaulf.swift in Sources */,
+				2F730A5020F648A400FC9DBD /* CommentUserModel.swift in Sources */,
+				2F730A5E20F648A400FC9DBD /* WeatherApiProtocol.swift in Sources */,
 				7C94DF5120EC607D00D23199 /* NewsTableViewController.swift in Sources */,
 				2FE6A6D020E8A5E300E1C9EE /* MainViewModelDelegate.swift in Sources */,
 				7C245F0D20ED30C60070E178 /* MainboardTableViewCell.swift in Sources */,
 				2FBA169D20F3704200F82F98 /* LocationManager.swift in Sources */,
+				2F730A5720F648A400FC9DBD /* BoardStyleModel.swift in Sources */,
 				2F3C99AA20EF6CEB00D76953 /* SignupScrollViewModeling.swift in Sources */,
 				7CE1D2A820F47FD200E0C40E /* FollowingViewController.swift in Sources */,
-				2F4A4C5720F4B2140046A34B /* UserApi.swift in Sources */,
 				7C47392920F645C500732C3A /* FilterTextTableViewCell.swift in Sources */,
+				2F730A5120F648A400FC9DBD /* UserBoardModel.swift in Sources */,
 				2FBA16AB20F3783200F82F98 /* CameraManagerModeling.swift in Sources */,
 				7CE1D2A620F4616C00E0C40E /* GalleryViewController.swift in Sources */,
-				2FBA168420F3494600F82F98 /* Const.swift in Sources */,
 				7C94DF5320EC60A400D23199 /* NewsTableViewCell.swift in Sources */,
 				2FA9C0B320EE05D1005DF55E /* LoginViewModeling.swift in Sources */,
+				2F730A5220F648A400FC9DBD /* BoardLikeModel.swift in Sources */,
 				7C94DF4F20EBD67E00D23199 /* MypageSettingViewController.swift in Sources */,
 				2FA9C0AB20EE02F9005DF55E /* ViewControllerInjector.swift in Sources */,
+				2F730A5320F648A400FC9DBD /* UserModel.swift in Sources */,
 				7C47392320F6453700732C3A /* FilterTableViewController.swift in Sources */,
-				2F4A4C5820F4B2140046A34B /* BoardOtherApi.swift in Sources */,
 				7C245F1120ED34EB0070E178 /* MainRecommendCollectionViewCell.swift in Sources */,
 				7C47392720F645B300732C3A /* FilterContentTableViewCell.swift in Sources */,
+				2F730A2820F6487A00FC9DBD /* BoardOtherApi.swift in Sources */,
 				7C47392B20F645F300732C3A /* CommentWriteTableViewCell.swift in Sources */,
+				2F730A2A20F6487A00FC9DBD /* SignApi.swift in Sources */,
+				2F730A2720F6487A00FC9DBD /* SearchApi.swift in Sources */,
+				2F730A2B20F6487A00FC9DBD /* UserApi.swift in Sources */,
 				2F3C99A820EF6CD300D76953 /* SignupScrollViewModel.swift in Sources */,
 				7C245F0B20ED30760070E178 /* MainTableViewHeaderCell.swift in Sources */,
 				2FBA16A920F3782700F82F98 /* GallerManagerModeling.swift in Sources */,
 				7C94DF5520EC74D400D23199 /* MypageSettingTableViewController.swift in Sources */,
+				2F730A4B20F648A400FC9DBD /* BoardModel.swift in Sources */,
+				2F730A4D20F648A400FC9DBD /* FollowModel.swift in Sources */,
 				2FBA169020F35D0F00F82F98 /* EventDrivable.swift in Sources */,
+				2F730A2920F6487A00FC9DBD /* BoardApi.swift in Sources */,
+				2F730A2C20F6487A00FC9DBD /* WeatherApi.swift in Sources */,
 				2FE6A6CE20E89EA200E1C9EE /* MainViewModel.swift in Sources */,
 				7C94DF4B20EB717B00D23199 /* AgeView.swift in Sources */,
+				2F730A5F20F648A400FC9DBD /* BoardOtherApiProtocol.swift in Sources */,
 				2FBA16A720F3781500F82F98 /* GalleryManager.swift in Sources */,
 				2FBA16A520F3777800F82F98 /* CameraManager.swift in Sources */,
 				7C60275720E9F2B30010AF12 /* MypageViewController.swift in Sources */,
+				2F730A6220F648A400FC9DBD /* BoardApiProtocol.swift in Sources */,
 				7C60275920E9FB0D0010AF12 /* MainViewController.swift in Sources */,
+				2F730A6120F648A400FC9DBD /* SearchApiProtocol.swift in Sources */,
 				2FA9C0B120EE05C5005DF55E /* LoginViewModel.swift in Sources */,
-				2F4A4C5920F4B2140046A34B /* SearchApi.swift in Sources */,
 				2FBA16A220F374B700F82F98 /* LocationManagerModeling.swift in Sources */,
+				2F730A5420F648A400FC9DBD /* WeatherShowModel.swift in Sources */,
+				2F730A6820F648CA00FC9DBD /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

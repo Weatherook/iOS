@@ -19,18 +19,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" image="mainLogoWhite" translatesAutoresizingMaskIntoConstraints="NO" id="xji-ta-Q9Q">
-                                <rect key="frame" x="110" y="215.5" width="184" height="256"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" image="logoWhite" translatesAutoresizingMaskIntoConstraints="NO" id="xji-ta-Q9Q">
+                                <rect key="frame" x="119.5" y="228.5" width="136" height="210"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="xji-ta-Q9Q" secondAttribute="height" multiplier="23:32" id="Umq-BO-KUc"/>
+                                    <constraint firstAttribute="width" secondItem="xji-ta-Q9Q" secondAttribute="height" multiplier="147:227" id="aVZ-yI-MNT"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.4549019608" green="0.1137254902" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="pyA-YI-czb" firstAttribute="trailing" secondItem="xji-ta-Q9Q" secondAttribute="trailing" constant="81" id="9zE-UB-Kei"/>
-                            <constraint firstItem="xji-ta-Q9Q" firstAttribute="leading" secondItem="pyA-YI-czb" secondAttribute="leading" constant="110" id="Wj3-wR-Kd5"/>
-                            <constraint firstItem="xji-ta-Q9Q" firstAttribute="centerY" secondItem="pyA-YI-czb" secondAttribute="centerY" id="q6A-Os-YdU"/>
+                            <constraint firstItem="xji-ta-Q9Q" firstAttribute="centerY" secondItem="f8D-Wa-pI1" secondAttribute="centerY" id="T1P-KP-Hkv"/>
+                            <constraint firstItem="xji-ta-Q9Q" firstAttribute="centerX" secondItem="f8D-Wa-pI1" secondAttribute="centerX" id="pkl-ai-TDg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="pyA-YI-czb"/>
                     </view>
@@ -41,6 +40,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="mainLogoWhite" width="48" height="67"/>
+        <image name="logoWhite" width="136" height="188"/>
     </resources>
 </document>

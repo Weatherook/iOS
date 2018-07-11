@@ -112,37 +112,37 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="XvA-f7-44s" secondAttribute="height" multiplier="109:30" id="xSN-IG-1uf"/>
                                                 </constraints>
-                                                <state key="normal" title="빈티지 스트릿" backgroundImage="setting2">
+                                                <state key="normal" title="빈티지 스트릿" backgroundImage="styleNon">
                                                     <color key="titleColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzo-uZ-14G">
                                                 <rect key="frame" x="134" y="633" width="109" height="30"/>
-                                                <state key="normal" title="클래식 모던" backgroundImage="setting2">
+                                                <state key="normal" title="클래식 모던" backgroundImage="styleNon">
                                                     <color key="titleColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mua-JJ-Eko">
                                                 <rect key="frame" x="258" y="633" width="109" height="30"/>
-                                                <state key="normal" title="캐쥬얼 유스" backgroundImage="setting2">
+                                                <state key="normal" title="캐쥬얼 유스" backgroundImage="styleNon">
                                                     <color key="titleColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j2g-bH-Tt5">
                                                 <rect key="frame" x="10" y="671" width="109" height="30"/>
-                                                <state key="normal" title="로맨틱 댄디" backgroundImage="setting2">
+                                                <state key="normal" title="로맨틱 댄디" backgroundImage="styleNon">
                                                     <color key="titleColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sdg-bZ-NJ4">
                                                 <rect key="frame" x="134" y="671" width="109" height="30"/>
-                                                <state key="normal" title="심플" backgroundImage="setting2">
+                                                <state key="normal" title="심플" backgroundImage="styleNon">
                                                     <color key="titleColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z7S-VG-YUp">
                                                 <rect key="frame" x="258" y="671" width="109" height="30"/>
-                                                <state key="normal" title="그 외" backgroundImage="setting2">
+                                                <state key="normal" title="그 외" backgroundImage="styleNon">
                                                     <color key="titleColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
@@ -303,7 +303,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="setting2" width="30" height="11"/>
         <image name="stickerCute" width="127" height="148"/>
+        <image name="styleNon" width="107" height="31"/>
     </resources>
 </document>

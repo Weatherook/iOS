@@ -9,7 +9,7 @@
 import Foundation
 import Alamofire
 
-class SignApi{
+class SignApi : SignApiProtocol{
     
     func signin(user_id : String, user_pw:String) -> DataRequest{
         let param : [String : Any] = [

@@ -2375,6 +2375,14 @@
                                         <constraint firstItem="hnO-JZ-EAs" firstAttribute="centerX" secondItem="6JY-Rh-Xm7" secondAttribute="centerX" id="U6Y-45-i8K"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="labelGender" destination="6yg-zB-SKn" id="Dhg-nM-ftv"/>
+                                    <outlet property="labelHeight" destination="qUr-Kv-pSS" id="wws-GB-PyC"/>
+                                    <outlet property="labelStyle" destination="pIN-2E-Bb2" id="5jJ-12-oXC"/>
+                                    <outlet property="labelTemp" destination="RC1-BR-kMe" id="H26-Iu-cWy"/>
+                                    <outlet property="labelWeather" destination="6KR-Nc-w7v" id="86I-ak-yKm"/>
+                                    <outlet property="labelWeightType" destination="Efi-06-MbL" id="0YU-Oh-2FZ"/>
+                                </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="FilterContentTableViewCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="538" id="pca-ia-MGs" customClass="FilterContentTableViewCell" customModule="Weatherook" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="72" width="375" height="538"/>
@@ -2509,6 +2517,20 @@
                                         <constraint firstItem="o5P-Zv-Qh2" firstAttribute="leading" secondItem="DoN-5C-t76" secondAttribute="trailing" constant="5" id="y92-bA-uZJ"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="btnBottomSheet" destination="Ad3-sg-qMt" id="HxW-mK-KLF"/>
+                                    <outlet property="btnHeart" destination="bJc-oy-NjA" id="cNQ-G8-Sbr"/>
+                                    <outlet property="btnID" destination="PSr-hm-jBb" id="hfA-nD-WvR"/>
+                                    <outlet property="btnMoreComment" destination="RDg-1i-cQY" id="2cN-XV-z0A"/>
+                                    <outlet property="imgContent" destination="YAz-AN-v4j" id="dKd-0s-4uV"/>
+                                    <outlet property="imgProfile" destination="MZL-ub-EC9" id="uWn-Xq-Pie"/>
+                                    <outlet property="labelArea" destination="8fI-1Q-FKP" id="O9G-gu-mSy"/>
+                                    <outlet property="labelDate" destination="ls0-ol-MHE" id="L8c-gp-Kec"/>
+                                    <outlet property="labelHeart" destination="Nib-sh-hj3" id="xqx-U9-wrh"/>
+                                    <outlet property="labelTemp" destination="dTn-F1-ruT" id="HBj-fi-Alt"/>
+                                    <outlet property="labelWeather" destination="o5P-Zv-Qh2" id="nza-jk-VCM"/>
+                                    <outlet property="labelWriting" destination="lhY-Yy-5Zf" id="yx4-sg-7Y3"/>
+                                </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="CommentWriteTableViewCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="40" id="Cgm-AT-O8h" customClass="CommentWriteTableViewCell" customModule="Weatherook" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="610" width="375" height="40"/>

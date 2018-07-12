@@ -33,13 +33,34 @@ class SignupScrollViewController: UIViewController {
 
 // View 관련
 func test(){
-//    let a = SignApi()
-//    a.signin(id: "awesome33", pw: "we0001")
-//    a.signup(id: "dddd@nvaer.com", pw: "ddddd123", gender: "남", age: 20, height: 160, weight: 100, style: ["댄디","빈티지"])
-//    let b = BoardApi()
-//    b.getBoard(boardIdx: 3).responseJSON{
+    
+    let b = CommonApi()
+    let c = CommentApi()
+    let d = CommonApi()
+    let e = WeatherApi()
+    let a = SignApi()
+//    b.retreiveCommend(x: testLocation[0], y: testLocation[1], date_type: .today).responseJSON{
 //        print($0)
 //    }
+//    e.getWeatherList(x: testLocation[0], y: testLocation[1]).response{ print(String(data : $0.data!, encoding : .utf8)) }
+    
+//    d.postLike(board_idx: 1).responseJSON{print("postLike : \($0)")}
+//    d.retreiveCommend(x: testLocation[0], y: testLocation[1], date_type: .today).responseJSON { print("retreiveCommend : \($0)")}
+    
+    e.getWeather(x: testLocation[0], y: testLocation[1], date_type: .tomorrow).responseJSON {print("getWeather : \($0)")}
+//    e.getWeatherComment(weather_temp: 25, weather_weather: .veryCloudy).responseJSON {print("getWeatherComment : \($0)")}
+//    e.getWeatherList(x: testLocation[0], y: testLocation[1]).responseJSON {print("getWeatherList : \($0)")}
+//    e.weather3hours(x: testLocation[0], y: testLocation[1]).responseJSON {print("3hours : \($0)")}
+//    b.postLike(board_idx: 1).responseJSON{print($0)}
+//    c.getComment(comment_idx: 1, board_idx: 3).responseJSON{print($0)}
+//    c.postComment(board_idx: 1, desc: "허허하하하하하하허하허iOS").responseJSON{print($0)}
+//    c.putComment(board_idx: 1, comment_desc: "히히허허앗수정", comment_idx: 3).responseJSON{print($0)}
+//    let a = SignApi()
+//    a.signup(user_id: "dldudwns@naver.com", user_pw: "dfkajldlal", user_gender: "남", user_age: 21, user_height: 180, user_weight: 80, user_stylelist: ["댄디","빈티지"]).responseJSON{print($0)}
+//    a.signin(user_id: "Dddd", user_pw: "pwsd").responseJSON{ print($0)}
+    
+
+    
 }
 
 extension SignupScrollViewController {

@@ -10,5 +10,5 @@ import Foundation
 import RxSwift
 
 protocol NetworkDrivable {
-    var DefaultDriver : BehaviorSubject<String> {get}
+    var tokenDriver : BehaviorSubject<String> {get}
 }

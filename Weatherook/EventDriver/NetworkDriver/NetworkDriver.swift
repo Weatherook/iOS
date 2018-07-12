@@ -10,5 +10,5 @@ import Foundation
 import RxSwift
 
 class NetworkDriver : NetworkDrivable {
-    var DefaultDriver: BehaviorSubject<String> = BehaviorSubject(value: "d")
+    var tokenDriver : BehaviorSubject<String> = BehaviorSubject(value: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkeCI6MSwiaWF0IjoxNTMxMDYwNDU2LCJleHAiOjE1MzM2NTI0NTZ9.9m9x53Lx-t1GhfifnLo2AMu4GSfapBfYtV74QCwBimg")
 }

@@ -15,6 +15,7 @@
 		2F131EC420F76EF300234CCC /* WeatherApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F131EC320F76EF300234CCC /* WeatherApi.swift */; };
 		2F1DFB1020F67C3900C18BEC /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1DFB0F20F67C3900C18BEC /* Const.swift */; };
 		2F20B5F020F77EA800D56B8B /* TestKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20B5EF20F77EA800D56B8B /* TestKey.swift */; };
+		2F20B5F420F79E5400D56B8B /* SignModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20B5F320F79E5400D56B8B /* SignModel.swift */; };
 		2F3C99A820EF6CD300D76953 /* SignupScrollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C99A720EF6CD300D76953 /* SignupScrollViewModel.swift */; };
 		2F3C99AA20EF6CEB00D76953 /* SignupScrollViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C99A920EF6CEB00D76953 /* SignupScrollViewModeling.swift */; };
 		2F5806A720EE18E20064A3AC /* CharacterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5806A620EE18E20064A3AC /* CharacterView.xib */; };
@@ -97,6 +98,7 @@
 		2F1DFB0A20F67B0D00C18BEC /* Weatherook copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Weatherook copy-Info.plist"; path = "/Users/iyeongjun/Desktop/ios3/iOS/Weatherook copy-Info.plist"; sourceTree = "<absolute>"; };
 		2F1DFB0F20F67C3900C18BEC /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		2F20B5EF20F77EA800D56B8B /* TestKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestKey.swift; sourceTree = "<group>"; };
+		2F20B5F320F79E5400D56B8B /* SignModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignModel.swift; sourceTree = "<group>"; };
 		2F3C99A720EF6CD300D76953 /* SignupScrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScrollViewModel.swift; sourceTree = "<group>"; };
 		2F3C99A920EF6CEB00D76953 /* SignupScrollViewModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScrollViewModeling.swift; sourceTree = "<group>"; };
 		2F5806A620EE18E20064A3AC /* CharacterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterView.xib; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 			children = (
 				2F730A2F20F648A300FC9DBD /* BoardModel.swift */,
 				2F730A6920F6504000FC9DBD /* TmpModel.swift */,
+				2F20B5F320F79E5400D56B8B /* SignModel.swift */,
 			);
 			path = NetworkModel;
 			sourceTree = "<group>";
@@ -740,6 +743,7 @@
 				2F730A6C20F653DC00FC9DBD /* Data+setDefault.swift in Sources */,
 				7C47392B20F645F300732C3A /* CommentWriteTableViewCell.swift in Sources */,
 				2F3C99A820EF6CD300D76953 /* SignupScrollViewModel.swift in Sources */,
+				2F20B5F420F79E5400D56B8B /* SignModel.swift in Sources */,
 				7C245F0B20ED30760070E178 /* MainTableViewHeaderCell.swift in Sources */,
 				2F730A6A20F6504000FC9DBD /* TmpModel.swift in Sources */,
 				2FBA16A920F3782700F82F98 /* GallerManagerModeling.swift in Sources */,

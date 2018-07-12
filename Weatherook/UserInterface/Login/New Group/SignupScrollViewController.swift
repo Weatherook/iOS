@@ -39,15 +39,16 @@ func test(){
     let d = CommonApi()
     let e = WeatherApi()
     let a = SignApi()
+    
+    
+    
 //    b.retreiveCommend(x: testLocation[0], y: testLocation[1], date_type: .today).responseJSON{
 //        print($0)
 //    }
 //    e.getWeatherList(x: testLocation[0], y: testLocation[1]).response{ print(String(data : $0.data!, encoding : .utf8)) }
-    
 //    d.postLike(board_idx: 1).responseJSON{print("postLike : \($0)")}
 //    d.retreiveCommend(x: testLocation[0], y: testLocation[1], date_type: .today).responseJSON { print("retreiveCommend : \($0)")}
-    
-    e.getWeather(x: testLocation[0], y: testLocation[1], date_type: .tomorrow).responseJSON {print("getWeather : \($0)")}
+//    e.getWeather(x: testLocation[0], y: testLocation[1], date_type: .tomorrow).responseJSON {print("getWeather : \($0)")}
 //    e.getWeatherComment(weather_temp: 25, weather_weather: .veryCloudy).responseJSON {print("getWeatherComment : \($0)")}
 //    e.getWeatherList(x: testLocation[0], y: testLocation[1]).responseJSON {print("getWeatherList : \($0)")}
 //    e.weather3hours(x: testLocation[0], y: testLocation[1]).responseJSON {print("3hours : \($0)")}

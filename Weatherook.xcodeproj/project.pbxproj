@@ -38,7 +38,6 @@
 		2F5806A720EE18E20064A3AC /* CharacterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5806A620EE18E20064A3AC /* CharacterView.xib */; };
 		2F5806A920EE18F90064A3AC /* AgeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5806A820EE18F90064A3AC /* AgeView.xib */; };
 		2F5806AB20EE19060064A3AC /* SignupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5806AA20EE19060064A3AC /* SignupView.xib */; };
-		2F730A4B20F648A400FC9DBD /* BoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A2F20F648A300FC9DBD /* BoardModel.swift */; };
 		2F730A4C20F648A400FC9DBD /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A3120F648A300FC9DBD /* CommentModel.swift */; };
 		2F730A4E20F648A400FC9DBD /* BoardCommendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A3320F648A300FC9DBD /* BoardCommendModel.swift */; };
 		2F730A4F20F648A400FC9DBD /* StyleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F730A3420F648A300FC9DBD /* StyleModel.swift */; };
@@ -146,7 +145,6 @@
 		2F5806A620EE18E20064A3AC /* CharacterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterView.xib; sourceTree = "<group>"; };
 		2F5806A820EE18F90064A3AC /* AgeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AgeView.xib; sourceTree = "<group>"; };
 		2F5806AA20EE19060064A3AC /* SignupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignupView.xib; sourceTree = "<group>"; };
-		2F730A2F20F648A300FC9DBD /* BoardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardModel.swift; sourceTree = "<group>"; };
 		2F730A3120F648A300FC9DBD /* CommentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
 		2F730A3320F648A300FC9DBD /* BoardCommendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardCommendModel.swift; sourceTree = "<group>"; };
 		2F730A3420F648A300FC9DBD /* StyleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleModel.swift; sourceTree = "<group>"; };
@@ -317,7 +315,6 @@
 		2F730A2E20F648A300FC9DBD /* NetworkModel */ = {
 			isa = PBXGroup;
 			children = (
-				2F730A2F20F648A300FC9DBD /* BoardModel.swift */,
 				2F730A6920F6504000FC9DBD /* TmpModel.swift */,
 				2F20B5F320F79E5400D56B8B /* SignModel.swift */,
 				2F20B5F520F79FDA00D56B8B /* WeatherModel.swift */,
@@ -968,15 +965,11 @@
 				7C245F0B20ED30760070E178 /* MainTableViewHeaderCell.swift in Sources */,
 				2F730A6A20F6504000FC9DBD /* TmpModel.swift in Sources */,
 				2FBA16A920F3782700F82F98 /* GallerManagerModeling.swift in Sources */,
-				2F730A4B20F648A400FC9DBD /* BoardModel.swift in Sources */,
 				7C43D91820F7D92900F2F70F /* FollowingCollectionViewCell.swift in Sources */,
-				2F730A4D20F648A400FC9DBD /* FollowModel.swift in Sources */,
 				7C43D8F920F7CA9000F2F70F /* MainCommentTableViewCell.swift in Sources */,
 				2F20B5F620F79FDA00D56B8B /* WeatherModel.swift in Sources */,
-				7C94DF5520EC74D400D23199 /* MypageSettingTableViewController.swift in Sources */,
 				2F20B61020F7CEC200D56B8B /* SignApiProtocol.swift in Sources */,
 				2F20B5FC20F7A38C00D56B8B /* WeatherCommendModel.swift in Sources */,
-				2F730A4B20F648A400FC9DBD /* BoardModel.swift in Sources */,
 				2FBA169020F35D0F00F82F98 /* EventDrivable.swift in Sources */,
 				2FE6A6CE20E89EA200E1C9EE /* MainViewModel.swift in Sources */,
 				7C94DF4B20EB717B00D23199 /* AgeView.swift in Sources */,

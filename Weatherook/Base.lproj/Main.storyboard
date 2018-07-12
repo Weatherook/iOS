@@ -15,7 +15,6 @@
         <!--home-->
         <scene sceneID="2eO-EX-owl">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tKt-0w-7bI" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="zlk-C1-L8w" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MAH-Xa-lzh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="2000"/>
@@ -781,6 +780,7 @@
                     <tabBarItem key="tabBarItem" title="home" image="tabBarItem:gjN-tE-sXg:image" selectedImage="under1" id="gjN-tE-sXg"/>
                     <size key="freeformSize" width="375" height="2000"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tKt-0w-7bI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1047.2" y="939.13043478260875"/>
         </scene>

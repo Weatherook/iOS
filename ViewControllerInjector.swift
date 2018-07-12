@@ -21,6 +21,14 @@ extension SwinjectStoryboard{
         defaultContainer.autoregister(NetworkDrivable.self, initializer: NetworkDriver.init)
         defaultContainer.autoregister(EventDrivable.self, initializer: EventDriver.init)
         
+        /*네트워크 등록*/
+        defaultContainer.autoregister(BoardApiProtocol.self, initializer: BoardApi.init)
+        defaultContainer.autoregister(SignApiProtocol.self, initializer: SignApi.init)
+        defaultContainer.autoregister(CommonApiProtocol.self, initializer: CommonApi.init)
+        defaultContainer.autoregister(CommentApiProtocol.self, initializer: CommentApi.init)
+        defaultContainer.autoregister(WeatherApiProtocol.self, initializer: WeatherApi.init)
+        defaultContainer.autoregister(UserApiProtocol.self, initializer: UserApi.init)
+        
         
         /*스토리보드 인젝션*/
         defaultContainer.storyboardInitCompleted(SignupScrollViewController.self) { (r, c) in c.model = r~> } // 내려받는거

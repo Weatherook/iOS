@@ -8,7 +8,7 @@
 
 import Foundation
 import Alamofire
-class CommonApi{
+class CommonApi : CommonApiProtocol{
     
     // like 보내기
     func postLike(board_idx : Int) -> DataRequest{
@@ -19,17 +19,12 @@ class CommonApi{
         
         return Alamofire.request("\(BASE_URL)/board/like", method: .post, parameters: param, encoding: JSONEncoding.default, headers: headers)
     }
-    
-    
-    //오늘 추천할만 게시글조회
-    func retreiveCommend(x : Float, y : Float, date_type : DateType) -> DataRequest{
-        let param : [String : Any] = [
-            "x" : x ,
-            "y" : y ,
-            "date_type" : date_type.rawValue
-        ]
-        return Alamofire.request("\(BASE_URL)/board/commend", method: .post, parameters: param, encoding: JSONEncoding.default, headers: headers)
+    // 내 팔로워 게시글 조회
+    func getFollow() -> DataRequest{
+        return Alamofire.request("\(BASE_URL)/board/follow", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: headers)
     }
     
+    
+    //
         
 }

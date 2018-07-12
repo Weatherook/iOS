@@ -36,10 +36,25 @@ func test(){
     
     let b = CommonApi()
     let c = CommentApi()
-    let d = CommonApi()
+    let d = BoardApi()
     let e = WeatherApi()
     let a = SignApi()
+    let h = UserApi()
     
+//    h.userNews().responseJSON{
+//        let decoder = JSONDecoder()
+//        let data = try! decoder.decode(UserNewsModel.self, from: $0.data!)
+//
+//        print(data.data?.count)
+//    }
+//    h.userShow(other_id: nil).responseJSON{print($0)}
+    h.userFollower().responseJSON{print("followr : \($0)")}
+    h.userSettings().responseJSON{print("settings : \($0)")}
+    h.userFollowing().responseJSON{print("following : \($0)")}
+//    d.allBoardFilter(gender: "남", height: nil, size: nil, temp: nil, weather: nil, stylelist: nil).response { (e) in
+//        print(e.request)
+//        print(e.response)
+//    }
     
     
 //    b.retreiveCommend(x: testLocation[0], y: testLocation[1], date_type: .today).responseJSON{

@@ -8,7 +8,7 @@
 
 import Foundation
 import Alamofire
-class CommentApi {
+class CommentApi: CommentApiProtocol {
     func postComment(board_idx : Int,desc : String) -> DataRequest{
         let param :[String : Any] = [
             "board_idx" : board_idx,

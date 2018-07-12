@@ -728,8 +728,8 @@
 		7C60274F20E9F2580010AF12 /* Filter */ = {
 			isa = PBXGroup;
 			children = (
-				7C43D90620F7D40600F2F70F /* FilterSetting */,
 				7C47392220F6453700732C3A /* FilterTableViewController.swift */,
+				7C43D90620F7D40600F2F70F /* FilterSetting */,
 				7C43D8FC20F7CB2A00F2F70F /* Cell */,
 				7C47392C20F6461F00732C3A /* CommentMore */,
 			);

@@ -10,6 +10,13 @@ import UIKit
 
 class FilterTextTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var labelGender: UILabel!
+    @IBOutlet weak var labelHeight: UILabel!
+    @IBOutlet weak var labelStyle: UILabel!
+    @IBOutlet weak var labelWeightType: UILabel!
+    @IBOutlet weak var labelTemp: UILabel!
+    @IBOutlet weak var labelWeather: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

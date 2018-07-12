@@ -24,6 +24,9 @@ struct SignupScrollViewModel: SignupScrollViewModeling {
         ageSlide =  Bundle.main.loadNibNamed("AgeView", owner: self, options: nil)![0] as! AgeView
     }
     
+    func tese(){
+        print(ageSlide?.btnMd.isSelected)
+    }
     func createSlides() -> [UIView] {
         return [signupSlide!,characterSlide!,ageSlide!]
     }

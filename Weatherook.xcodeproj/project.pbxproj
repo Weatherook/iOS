@@ -33,6 +33,7 @@
 		2F20B61420F7D01D00D56B8B /* CommentApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20B61320F7D01D00D56B8B /* CommentApiProtocol.swift */; };
 		2F20B61620F7D0B200D56B8B /* WeatherApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20B61520F7D0B200D56B8B /* WeatherApiProtocol.swift */; };
 		2F20B61820F7D13600D56B8B /* UserApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20B61720F7D13600D56B8B /* UserApiProtocol.swift */; };
+		2F20B61A20F7EAAC00D56B8B /* BoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20B61920F7EAAC00D56B8B /* BoardModel.swift */; };
 		2F3C99A820EF6CD300D76953 /* SignupScrollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C99A720EF6CD300D76953 /* SignupScrollViewModel.swift */; };
 		2F3C99AA20EF6CEB00D76953 /* SignupScrollViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C99A920EF6CEB00D76953 /* SignupScrollViewModeling.swift */; };
 		2F5806A720EE18E20064A3AC /* CharacterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5806A620EE18E20064A3AC /* CharacterView.xib */; };
@@ -140,6 +141,7 @@
 		2F20B61320F7D01D00D56B8B /* CommentApiProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentApiProtocol.swift; sourceTree = "<group>"; };
 		2F20B61520F7D0B200D56B8B /* WeatherApiProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApiProtocol.swift; sourceTree = "<group>"; };
 		2F20B61720F7D13600D56B8B /* UserApiProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApiProtocol.swift; sourceTree = "<group>"; };
+		2F20B61920F7EAAC00D56B8B /* BoardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardModel.swift; sourceTree = "<group>"; };
 		2F3C99A720EF6CD300D76953 /* SignupScrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScrollViewModel.swift; sourceTree = "<group>"; };
 		2F3C99A920EF6CEB00D76953 /* SignupScrollViewModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScrollViewModeling.swift; sourceTree = "<group>"; };
 		2F5806A620EE18E20064A3AC /* CharacterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterView.xib; sourceTree = "<group>"; };
@@ -327,6 +329,7 @@
 				2F20B60620F7B96500D56B8B /* UserShowModel.swift */,
 				2F20B60820F7BC6B00D56B8B /* UserFollowerListModel.swift */,
 				2F20B60A20F7BC9F00D56B8B /* UserFollowingListModel.swift */,
+				2F20B61920F7EAAC00D56B8B /* BoardModel.swift */,
 			);
 			path = NetworkModel;
 			sourceTree = "<group>";
@@ -945,6 +948,7 @@
 				7CE1D2A620F4616C00E0C40E /* GalleryViewController.swift in Sources */,
 				7C94DF5320EC60A400D23199 /* NewsTableViewCell.swift in Sources */,
 				2FA9C0B320EE05D1005DF55E /* LoginViewModeling.swift in Sources */,
+				2F20B61A20F7EAAC00D56B8B /* BoardModel.swift in Sources */,
 				2F730A5220F648A400FC9DBD /* BoardLikeModel.swift in Sources */,
 				7C43D8FF20F7CBBE00F2F70F /* CommentMoreTableViewController.swift in Sources */,
 				7C43D90D20F7D4BB00F2F70F /* NewsFollowTableViewCell.swift in Sources */,

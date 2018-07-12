@@ -216,6 +216,17 @@
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
+                <outlet property="btnCls" destination="dRf-Mn-gZH" id="ZaQ-aI-MFs"/>
+                <outlet property="btnCsa" destination="by0-AJ-4MT" id="waT-em-ydS"/>
+                <outlet property="btnDandy" destination="Fla-Dc-WFk" id="cy1-lY-tSz"/>
+                <outlet property="btnEtc" destination="ahA-nI-SRx" id="aFG-Fa-j7H"/>
+                <outlet property="btnLmt" destination="Uub-Zx-5lh" id="ow3-ZI-Swa"/>
+                <outlet property="btnMd" destination="BZR-hf-97Y" id="Pkq-wU-BqH"/>
+                <outlet property="btnSignupSubmit" destination="6Ko-KK-oeJ" id="ySl-CQ-Kch"/>
+                <outlet property="btnSp" destination="3lN-J5-5ML" id="ZAH-Qu-yxX"/>
+                <outlet property="btnStl" destination="7Oq-Jd-12f" id="dof-Nd-Kmg"/>
+                <outlet property="btnVtg" destination="og2-H8-WjL" id="3cX-ZV-GFZ"/>
+                <outlet property="btnYs" destination="TTm-EI-efo" id="2zM-c8-LHy"/>
                 <outlet property="txtSignupAge" destination="Zav-xb-MLz" id="53v-gw-KYJ"/>
             </connections>
             <point key="canvasLocation" x="33" y="53"/>

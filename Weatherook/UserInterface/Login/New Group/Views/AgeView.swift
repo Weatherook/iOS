@@ -13,6 +13,18 @@ class AgeView: UIView {
     
     @IBOutlet weak var txtSignupAge: UITextField!
     
+    @IBOutlet weak var btnVtg: UIButton!
+    @IBOutlet weak var btnStl: UIButton!
+    @IBOutlet weak var btnCls: UIButton!
+    @IBOutlet weak var btnMd: UIButton!
+    @IBOutlet weak var btnCsa: UIButton!
+    @IBOutlet weak var btnYs: UIButton!
+    @IBOutlet weak var btnSp: UIButton!
+    @IBOutlet weak var btnDandy: UIButton!
+    @IBOutlet weak var btnLmt: UIButton!
+    @IBOutlet weak var btnEtc: UIButton!
+    @IBOutlet weak var btnSignupSubmit: UIButton!
+    
     func getAgeRx() -> Observable<String?>{
         return txtSignupAge.rx.text.asObservable()
     }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZpX-3v-jcn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CLh-PP-str">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -1083,8 +1083,8 @@
                                     <constraint firstAttribute="width" secondItem="z3E-RY-qo5" secondAttribute="height" multiplier="251:36" id="oAl-2E-Ebl"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="회원가입" backgroundImage="idPurple">
-                                    <color key="titleColor" red="0.4549019608" green="0.1137254902" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="회원가입" backgroundImage="passwordPurple">
+                                    <color key="titleColor" red="0.95486075551183214" green="0.98406014270542463" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="아이디" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WGR-ka-mbB">
@@ -5137,6 +5137,7 @@ KQABuzsAAbs+AAG7QwAAAAAAAAQBAAAAAAAAAFkAAAAAAAAAAAAAAAAAAbtFA
         <image name="mainSun" width="182" height="176"/>
         <image name="mypageSetting" width="153" height="153"/>
         <image name="ooo" width="11" height="11"/>
+        <image name="passwordPurple" width="251" height="36"/>
         <image name="photoMenu" width="232" height="116"/>
         <image name="photo_color" width="6" height="6"/>
         <image name="photostory" width="6" height="6"/>

@@ -110,6 +110,7 @@
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
+                <outlet property="labelSignupInfo" destination="4Jy-7a-MPh" id="rlT-Zr-V3P"/>
                 <outlet property="txtSignupId" destination="g7E-Y4-X3S" id="Rzt-2L-X2u"/>
                 <outlet property="txtSignupPs" destination="443-aO-tuI" id="54G-kA-h77"/>
                 <outlet property="txtSignupPscf" destination="sda-zh-eDL" id="FzU-TD-w5A"/>

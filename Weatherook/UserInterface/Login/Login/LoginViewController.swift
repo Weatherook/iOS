@@ -97,7 +97,25 @@ extension LoginViewController{
             print(temp.data?[0].hour)
             weatherListDriver.onNext(temp)
         }
+        boardApi?.boardCommend(x: testLocation[0], y: testLocation[1], date_type: .today).responseJSON{ res in
+            let temp = try! JSONDecoder().decode(WeatherCommendModel.self, from: res.data!)
+            boardCommendDriver.onNext(temp)
+            print("boardCommend....\(temp.data)")
+        }
+        
+        boardApi?.boardTodayPopular().responseJSON{ res in
+            let temp = try! JSONDecoder().decode(TodayListModel.self, from: res.data!)
+            print(temp.data?.count)
+            todayPopularDriver.onNext(temp)
+        }
+        
+        boardApi?.boardTodayLatest().responseJSON{ res in
+            let temp = try! JSONDecoder().decode(TodayListModel.self, from: res.data!)
+            print(temp.data?.count)
+            todayLastesDriver.onNext(temp)
+        }
     }
+    //dd
 }
 
 extension LoginViewController : CLLocationManagerDelegate {

@@ -15,7 +15,7 @@ protocol BoardApiProtocol {
     func boardCommend(x :Float, y: Float , date_type : DateType) -> DataRequest
     func boardTodayPopular() -> DataRequest
     func boardTodayLatest() -> DataRequest
-    
+    func boardCommendUntoken() -> DataRequest
     func postBoard(img : String,
                    desc : String,
                    x : Int,

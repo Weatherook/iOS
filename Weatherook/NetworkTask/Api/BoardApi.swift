@@ -37,14 +37,17 @@ class BoardApi : BoardApiProtocol{
         return Alamofire.request("\(BASE_URL)/board", method: .post, parameters: param, encoding: JSONEncoding.default, headers: headers)
     }
     // 오늘 날씨에 추천할만한 게시글 조회
-    
     func boardCommend(x :Float, y: Float , date_type : DateType) -> DataRequest{
         let param : [String : Any] = [
             "x" : x,
             "y" : y,
             "date_type" : date_type.rawValue
         ]
-        return Alamofire.request("\(BASE_URL)/board/commend", method: .post, parameters: param, encoding: JSONEncoding.default, headers: headers)
+        return Alamofire.request("\(BASE_URL)/board/commend", method: .post, parameters: param, encoding: JSONEncoding.default, headers: nil)
+    }
+    
+    func boardCommendUntoken() -> DataRequest{
+        return Alamofire.request("\(BASE_URL)/board/commend", method: .post, parameters: nil, encoding: JSONEncoding.default, headers: headers)
     }
     
     // 오늘의 인기 게시글 조회

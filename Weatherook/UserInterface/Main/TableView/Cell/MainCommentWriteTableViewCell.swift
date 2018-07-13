@@ -10,6 +10,9 @@ import UIKit
 
 class MainCommentWriteTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var btnSubmit: UIButton!
+    @IBOutlet weak var txtComment: UITextField!
+    @IBOutlet weak var imgThurm: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -17,7 +20,6 @@ class MainCommentWriteTableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
         // Configure the view for the selected state
     }
 

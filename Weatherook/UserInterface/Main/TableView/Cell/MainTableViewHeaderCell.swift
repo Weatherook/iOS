@@ -10,6 +10,12 @@ import UIKit
 
 class MainTableViewHeaderCell: UITableViewCell {
 
+    @IBOutlet weak var btnPopular: UIButton!
+    @IBOutlet weak var btnLastest: UIButton!
+    @IBOutlet weak var followingView: UIView!
+    @IBOutlet weak var todayView: UIView!
+    @IBOutlet weak var btnToday: UIButton!
+    @IBOutlet weak var btnFollowing: UIButton!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

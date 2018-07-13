@@ -41,8 +41,14 @@
 		2F20B62520F8427C00D56B8B /* StaticEventDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20B62420F8427C00D56B8B /* StaticEventDriver.swift */; };
 		2F20B62720F84DBE00D56B8B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20B62620F84DBE00D56B8B /* MainViewController.swift */; };
 		2F20B62920F8528700D56B8B /* StaticModelDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20B62820F8528700D56B8B /* StaticModelDriver.swift */; };
+		2F20B62D20F860CA00D56B8B /* YesterSlide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F20B62C20F860CA00D56B8B /* YesterSlide.xib */; };
+		2F20B62F20F860D500D56B8B /* TodaySlide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F20B62E20F860D500D56B8B /* TodaySlide.xib */; };
+		2F20B63320F8617400D56B8B /* YesterSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20B63220F8617400D56B8B /* YesterSlide.swift */; };
+		2F20B63520F8618000D56B8B /* TodaySlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20B63420F8618000D56B8B /* TodaySlide.swift */; };
 		2F3C99A820EF6CD300D76953 /* SignupScrollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C99A720EF6CD300D76953 /* SignupScrollViewModel.swift */; };
 		2F3C99AA20EF6CEB00D76953 /* SignupScrollViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C99A920EF6CEB00D76953 /* SignupScrollViewModeling.swift */; };
+		2F52BEB620F86A100089F8E1 /* TommorowSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F52BEB520F86A100089F8E1 /* TommorowSlide.swift */; };
+		2F52BEB820F86A230089F8E1 /* TommorowSlide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F52BEB720F86A230089F8E1 /* TommorowSlide.xib */; };
 		2F5806A720EE18E20064A3AC /* CharacterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5806A620EE18E20064A3AC /* CharacterView.xib */; };
 		2F5806A920EE18F90064A3AC /* AgeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5806A820EE18F90064A3AC /* AgeView.xib */; };
 		2F5806AB20EE19060064A3AC /* SignupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5806AA20EE19060064A3AC /* SignupView.xib */; };
@@ -154,8 +160,14 @@
 		2F20B62420F8427C00D56B8B /* StaticEventDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticEventDriver.swift; sourceTree = "<group>"; };
 		2F20B62620F84DBE00D56B8B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2F20B62820F8528700D56B8B /* StaticModelDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticModelDriver.swift; sourceTree = "<group>"; };
+		2F20B62C20F860CA00D56B8B /* YesterSlide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YesterSlide.xib; sourceTree = "<group>"; };
+		2F20B62E20F860D500D56B8B /* TodaySlide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodaySlide.xib; sourceTree = "<group>"; };
+		2F20B63220F8617400D56B8B /* YesterSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesterSlide.swift; sourceTree = "<group>"; };
+		2F20B63420F8618000D56B8B /* TodaySlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaySlide.swift; sourceTree = "<group>"; };
 		2F3C99A720EF6CD300D76953 /* SignupScrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScrollViewModel.swift; sourceTree = "<group>"; };
 		2F3C99A920EF6CEB00D76953 /* SignupScrollViewModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScrollViewModeling.swift; sourceTree = "<group>"; };
+		2F52BEB520F86A100089F8E1 /* TommorowSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TommorowSlide.swift; sourceTree = "<group>"; };
+		2F52BEB720F86A230089F8E1 /* TommorowSlide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TommorowSlide.xib; sourceTree = "<group>"; };
 		2F5806A620EE18E20064A3AC /* CharacterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterView.xib; sourceTree = "<group>"; };
 		2F5806A820EE18F90064A3AC /* AgeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AgeView.xib; sourceTree = "<group>"; };
 		2F5806AA20EE19060064A3AC /* SignupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignupView.xib; sourceTree = "<group>"; };
@@ -322,6 +334,26 @@
 				2F20B62220F81C8100D56B8B /* WomanButton.swift */,
 			);
 			path = ToggleButton;
+			sourceTree = "<group>";
+		};
+		2F20B62A20F85FA500D56B8B /* ScrollLibs */ = {
+			isa = PBXGroup;
+			children = (
+				2F20B63220F8617400D56B8B /* YesterSlide.swift */,
+				2F20B63420F8618000D56B8B /* TodaySlide.swift */,
+				2F52BEB520F86A100089F8E1 /* TommorowSlide.swift */,
+			);
+			path = ScrollLibs;
+			sourceTree = "<group>";
+		};
+		2F20B62B20F860B800D56B8B /* MainTopViews */ = {
+			isa = PBXGroup;
+			children = (
+				2F20B62C20F860CA00D56B8B /* YesterSlide.xib */,
+				2F20B62E20F860D500D56B8B /* TodaySlide.xib */,
+				2F52BEB720F86A230089F8E1 /* TommorowSlide.xib */,
+			);
+			path = MainTopViews;
 			sourceTree = "<group>";
 		};
 		2F5806AC20EE37CA0064A3AC /* View */ = {
@@ -543,6 +575,7 @@
 		2FE6A6CC20E89E7200E1C9EE /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				2F20B62A20F85FA500D56B8B /* ScrollLibs */,
 				7C43D8F020F7C85E00F2F70F /* CollectionView */,
 				7C43D8F120F7C87300F2F70F /* TableView */,
 				7C43D8EF20F7C84A00F2F70F /* ScrollView */,
@@ -557,6 +590,7 @@
 		2FE6A6D120E8A62000E1C9EE /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				2F20B62B20F860B800D56B8B /* MainTopViews */,
 				2F5806AC20EE37CA0064A3AC /* View */,
 				2FE6A6D220E8A65700E1C9EE /* Start.storyboard */,
 				7C60274520E9E6690010AF12 /* CameraSB.storyboard */,
@@ -841,14 +875,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F20B62F20F860D500D56B8B /* TodaySlide.xib in Resources */,
 				2F5806A920EE18F90064A3AC /* AgeView.xib in Resources */,
 				7C60274820E9E6740010AF12 /* FollowingSB.storyboard in Resources */,
 				2FE6A6C420E8953100E1C9EE /* LaunchScreen.storyboard in Resources */,
 				7C60274A20E9E67F0010AF12 /* DoSignupSB.storyboard in Resources */,
 				7C60274620E9E6690010AF12 /* CameraSB.storyboard in Resources */,
+				2F20B62D20F860CA00D56B8B /* YesterSlide.xib in Resources */,
 				7CE1D29E20F3365B00E0C40E /* Test.storyboard in Resources */,
 				2F5806A720EE18E20064A3AC /* CharacterView.xib in Resources */,
 				2F5806AB20EE19060064A3AC /* SignupView.xib in Resources */,
+				2F52BEB820F86A230089F8E1 /* TommorowSlide.xib in Resources */,
 				2FE6A6D320E8A65700E1C9EE /* Start.storyboard in Resources */,
 				2FE6A6C120E8953100E1C9EE /* Assets.xcassets in Resources */,
 				2FE6A6BF20E8953000E1C9EE /* Main.storyboard in Resources */,
@@ -930,6 +967,7 @@
 				7C47392520F645A600732C3A /* CommentTableViewCell.swift in Sources */,
 				2F20B60B20F7BC9F00D56B8B /* UserFollowingListModel.swift in Sources */,
 				2F20B60320F7AC3400D56B8B /* FollowModel.swift in Sources */,
+				2F20B63320F8617400D56B8B /* YesterSlide.swift in Sources */,
 				2F20B61C20F8034600D56B8B /* MainTabBarViewController.swift in Sources */,
 				2FBA169220F35DA900F82F98 /* EventDriver.swift in Sources */,
 				2F730A4F20F648A400FC9DBD /* StyleModel.swift in Sources */,
@@ -957,6 +995,7 @@
 				7C43D90820F7D41900F2F70F /* FilterSettingViewController.swift in Sources */,
 				2F20B61220F7CF2700D56B8B /* CommonApiProtocol.swift in Sources */,
 				7C245F0D20ED30C60070E178 /* MainboardTableViewCell.swift in Sources */,
+				2F20B63520F8618000D56B8B /* TodaySlide.swift in Sources */,
 				2FBA169D20F3704200F82F98 /* LocationManager.swift in Sources */,
 				2F730A5720F648A400FC9DBD /* BoardStyleModel.swift in Sources */,
 				2F3C99AA20EF6CEB00D76953 /* SignupScrollViewModeling.swift in Sources */,
@@ -975,6 +1014,7 @@
 				2F20B61A20F7EAAC00D56B8B /* BoardModel.swift in Sources */,
 				2F730A5220F648A400FC9DBD /* BoardLikeModel.swift in Sources */,
 				7C43D8FF20F7CBBE00F2F70F /* CommentMoreTableViewController.swift in Sources */,
+				2F52BEB620F86A100089F8E1 /* TommorowSlide.swift in Sources */,
 				7C43D90D20F7D4BB00F2F70F /* NewsFollowTableViewCell.swift in Sources */,
 				7C94DF4F20EBD67E00D23199 /* MypageSettingViewController.swift in Sources */,
 				2FA9C0AB20EE02F9005DF55E /* ViewControllerInjector.swift in Sources */,

@@ -133,7 +133,7 @@
         </view>
     </objects>
     <resources>
-        <image name="joinManNo" width="47" height="71"/>
+        <image name="joinManNo" width="84" height="127"/>
         <image name="joinWomanNo" width="84" height="127"/>
     </resources>
 </document>

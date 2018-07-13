@@ -106,6 +106,8 @@ extension MainViewController{
 //        }
 //    }
     
+    
+    
     func setWeatherImage(_ num : Int) -> UIImage{
         
         switch num {

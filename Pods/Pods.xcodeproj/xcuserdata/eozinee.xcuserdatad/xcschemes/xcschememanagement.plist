@@ -88,6 +88,11 @@
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
+		<key>Toaster.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict/>

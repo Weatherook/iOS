@@ -25,6 +25,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var btnLoginSignup: UIButton!
     
     var account = ["",""]
+    var isclicked = false
     
     var viewModel : LoginViewModeling?
     
@@ -54,9 +55,13 @@ extension LoginViewController{
             print(self?.account)
         }
         
+
+        
         let _ = btnLogin.rx.tap.subscribe{ [weak self] event in
             self?.viewModel?.api.signin(user_id: (self?.account[0])!, user_pw: (self?.account[1])!).responseJSON{ res in
                 print("\((self?.account[0])!) / \((self?.account[1])!)")
+                
+                    
                 switch res.response?.statusCode {
                     
                     case 201 :
@@ -81,8 +86,8 @@ extension LoginViewController{
         }
     }
     func onSuccess(){
-    
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainTabBarViewController") as? MainTabBarViewController
+    
         vc?.isHeroEnabled = true
         vc?.heroModalAnimationType = .fade
         self.hero_replaceViewController(with: vc!)

@@ -10,6 +10,7 @@ import Foundation
 import Alamofire
 
 class WeatherApi : WeatherApiProtocol{
+    
     func getWeather(x : Float, y : Float, date_type : DateType) -> DataRequest{
         let param : [String : Any] = [
             "x" : x,
@@ -18,7 +19,7 @@ class WeatherApi : WeatherApiProtocol{
         ]
         return Alamofire.request("\(BASE_URL)/weather", method: .post, parameters: param, encoding: JSONEncoding.default, headers: headers)
     }
-    
+    // 3시간
     func getWeatherList(x : Float, y : Float) -> DataRequest{
         let param : [String : Any] = [
             "x" : x,

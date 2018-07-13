@@ -18,6 +18,7 @@ class SignupScrollViewController: UIViewController {
     @IBOutlet weak var scrollview: UIScrollView!
     @IBOutlet weak var pageControll: UIPageControl!
     
+    var gender = (true,false)
     var model : SignupScrollViewModeling?
     
     override func viewDidLoad() {
@@ -25,7 +26,6 @@ class SignupScrollViewController: UIViewController {
         scrollview.delegate = self
         setupSlideScrollView(slides: (model?.viewList)!)
         bind()
-        
         // Do any additional setup after loading the view.
     }
 }
@@ -39,7 +39,9 @@ extension SignupScrollViewController {
                 }
                 print(tuple)
         }
+        
     }
+    
 }
 
 // 스크롤뷰와 페이징 관련

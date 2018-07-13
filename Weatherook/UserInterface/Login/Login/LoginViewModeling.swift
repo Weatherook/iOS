@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+protocol LoginViewModeling {
+    var api : SignApiProtocol {get}
+}

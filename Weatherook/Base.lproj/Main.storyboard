@@ -15,7 +15,7 @@
         <!--home-->
         <scene sceneID="2eO-EX-owl">
             <objects>
-                <viewController id="zlk-C1-L8w" sceneMemberID="viewController">
+                <viewController id="zlk-C1-L8w" customClass="MainViewController" customModule="Weatherook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MAH-Xa-lzh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="2000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -779,6 +779,27 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="home" image="tabBarItem:gjN-tE-sXg:image" selectedImage="under1" id="gjN-tE-sXg"/>
                     <size key="freeformSize" width="375" height="2000"/>
+                    <connections>
+                        <outlet property="MainCollectionView" destination="vUi-qj-fX8" id="l24-IR-IrF"/>
+                        <outlet property="img1" destination="UtO-d5-HXD" id="9HH-g1-jwp"/>
+                        <outlet property="img2" destination="z3W-XO-xsN" id="2D9-GE-x1O"/>
+                        <outlet property="img3" destination="8wT-nZ-FK2" id="glA-NU-kTY"/>
+                        <outlet property="img4" destination="GN7-M7-Jpu" id="o9c-HD-0rQ"/>
+                        <outlet property="img5" destination="rKT-Po-vmK" id="y9F-7N-7ic"/>
+                        <outlet property="img6" destination="OhW-Zu-wMB" id="qg8-rH-Ffz"/>
+                        <outlet property="txt1" destination="1Vg-eG-dE4" id="6et-bQ-srr"/>
+                        <outlet property="txt2" destination="Mfm-e8-AnF" id="hi7-2m-0YP"/>
+                        <outlet property="txt3" destination="2PR-X7-GZS" id="1qi-VO-2Fm"/>
+                        <outlet property="txt4" destination="Oxb-De-6vQ" id="ABq-YL-0r9"/>
+                        <outlet property="txt5" destination="2H1-bk-AEC" id="VAK-gJ-z4j"/>
+                        <outlet property="txt6" destination="xdb-dH-TKA" id="L80-D0-aQ4"/>
+                        <outlet property="txttemp1" destination="To2-ke-U43" id="c8C-kj-KC5"/>
+                        <outlet property="txttemp2" destination="z15-DI-vC8" id="mAK-9d-7QP"/>
+                        <outlet property="txttemp3" destination="UjU-eH-Lgl" id="4mv-Rg-Wu7"/>
+                        <outlet property="txttemp4" destination="yeJ-TS-Eyr" id="T7u-P2-enp"/>
+                        <outlet property="txttemp5" destination="THf-kz-ga2" id="qCQ-w6-wpY"/>
+                        <outlet property="txttemp6" destination="LJ3-Bq-iyB" id="7SW-ze-82I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tKt-0w-7bI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1145,6 +1166,12 @@
                         <viewLayoutGuide key="safeArea" id="rS3-Cz-v8y"/>
                     </view>
                     <navigationItem key="navigationItem" id="KNK-Ju-JRA"/>
+                    <connections>
+                        <outlet property="btnLogin" destination="SpA-HG-ihg" id="jhK-3V-tno"/>
+                        <outlet property="btnLoginSignup" destination="z3E-RY-qo5" id="j3a-C9-W1D"/>
+                        <outlet property="txtLoginId" destination="WGR-ka-mbB" id="qzp-VY-WI9"/>
+                        <outlet property="txtLoginPw" destination="ALt-XE-adA" id="kvX-uO-kQc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tyE-p5-QRQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1153,7 +1180,7 @@
         <!--Signup Scroll View Controller-->
         <scene sceneID="fMv-6L-fSZ">
             <objects>
-                <viewController id="U5a-Ka-ccz" customClass="SignupScrollViewController" customModule="Weatherook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignupScrollViewController" id="U5a-Ka-ccz" customClass="SignupScrollViewController" customModule="Weatherook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="919-CK-HbS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1189,10 +1216,10 @@
             </objects>
             <point key="canvasLocation" x="-2599" y="1113"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar View Controller-->
         <scene sceneID="TE6-fw-TYW">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="ZpX-3v-jcn" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainTabBarViewController" automaticallyAdjustsScrollViewInsets="NO" id="ZpX-3v-jcn" customClass="MainTabBarViewController" customModule="Weatherook" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RjF-Qj-fVr">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -5149,14 +5176,14 @@ KQABuzsAAbs+AAG7QwAAAAAAAAQBAAAAAAAAAFkAAAAAAAAAAAAAAAAAAbtFA
 </mutableData>
         </image>
         <image name="followfollowme" width="86" height="34"/>
-        <image name="heart" width="21" height="21"/>
+        <image name="heart" width="82" height="82"/>
         <image name="idPassword" width="260" height="39"/>
         <image name="idPurple" width="251" height="36"/>
         <image name="loginIng" width="98" height="34"/>
         <image name="logoUnder" width="50" height="22"/>
         <image name="logout" width="89" height="37"/>
         <image name="mainLogoooo" width="189" height="117"/>
-        <image name="mainSun" width="182" height="176"/>
+        <image name="mainSun" width="232" height="225"/>
         <image name="mypageSetting" width="153" height="153"/>
         <image name="ooo" width="11" height="11"/>
         <image name="passwordPurple" width="251" height="36"/>
@@ -5303,10 +5330,10 @@ lACdAKIArQCvALEAswC4ALsAvQC/AMEAwwDIAN8A4QDjC3kLfguJC5ILpQupC7QLvQvCC8oLzQvSC+EL
 FR4aHiIeJR4qHjIeNR5HHkoeTwAAAAAAAAIBAAAAAAAAAFkAAAAAAAAAAAAAAAAAAB5RA
 </mutableData>
         </image>
-        <image name="under1" width="22" height="22"/>
+        <image name="under1" width="99" height="99"/>
         <image name="under2" width="28" height="23"/>
-        <image name="under3" width="22" height="22"/>
+        <image name="under3" width="99" height="99"/>
         <image name="under4" width="22" height="22"/>
-        <image name="under5" width="22" height="22"/>
+        <image name="under5" width="99" height="99"/>
     </resources>
 </document>

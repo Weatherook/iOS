@@ -10,4 +10,6 @@ import Foundation
 import RxSwift
 protocol EventDrivable {
     var TempDriver : BehaviorSubject<String> {get}
+    var GenderDriver : BehaviorSubject<[Bool]> {get}
+    var StyleDriver : BehaviorSubject<[String]> {get}
 }

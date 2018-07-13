@@ -12,8 +12,9 @@ import RxCocoa
 
 // Signup 에 들어가는 Observable과 View들에 대한 정의
 protocol SignupScrollViewModeling {
+    
     var obs : Observable<[String?]> {get}
     var viewList : [UIView] {get}
-    
+    var api : SignApiProtocol {get}
 
 }

@@ -34,6 +34,13 @@
 		2F20B61620F7D0B200D56B8B /* WeatherApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20B61520F7D0B200D56B8B /* WeatherApiProtocol.swift */; };
 		2F20B61820F7D13600D56B8B /* UserApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20B61720F7D13600D56B8B /* UserApiProtocol.swift */; };
 		2F20B61A20F7EAAC00D56B8B /* BoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20B61920F7EAAC00D56B8B /* BoardModel.swift */; };
+		2F20B61C20F8034600D56B8B /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20B61B20F8034600D56B8B /* MainTabBarViewController.swift */; };
+		2F20B61E20F818FD00D56B8B /* StyleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20B61D20F818FD00D56B8B /* StyleButton.swift */; };
+		2F20B62120F81C4700D56B8B /* ManButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20B62020F81C4700D56B8B /* ManButton.swift */; };
+		2F20B62320F81C8100D56B8B /* WomanButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20B62220F81C8100D56B8B /* WomanButton.swift */; };
+		2F20B62520F8427C00D56B8B /* StaticEventDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20B62420F8427C00D56B8B /* StaticEventDriver.swift */; };
+		2F20B62720F84DBE00D56B8B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20B62620F84DBE00D56B8B /* MainViewController.swift */; };
+		2F20B62920F8528700D56B8B /* StaticModelDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20B62820F8528700D56B8B /* StaticModelDriver.swift */; };
 		2F3C99A820EF6CD300D76953 /* SignupScrollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C99A720EF6CD300D76953 /* SignupScrollViewModel.swift */; };
 		2F3C99AA20EF6CEB00D76953 /* SignupScrollViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C99A920EF6CEB00D76953 /* SignupScrollViewModeling.swift */; };
 		2F5806A720EE18E20064A3AC /* CharacterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5806A620EE18E20064A3AC /* CharacterView.xib */; };
@@ -74,7 +81,6 @@
 		2FE6A6CE20E89EA200E1C9EE /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6A6CD20E89EA200E1C9EE /* MainViewModel.swift */; };
 		2FE6A6D020E8A5E300E1C9EE /* MainViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6A6CF20E8A5E300E1C9EE /* MainViewModelDelegate.swift */; };
 		2FE6A6D320E8A65700E1C9EE /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE6A6D220E8A65700E1C9EE /* Start.storyboard */; };
-		7C245F0920ED30430070E178 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C245F0820ED30430070E178 /* MainTableViewController.swift */; };
 		7C245F0B20ED30760070E178 /* MainTableViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C245F0A20ED30760070E178 /* MainTableViewHeaderCell.swift */; };
 		7C245F0D20ED30C60070E178 /* MainboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C245F0C20ED30C60070E178 /* MainboardTableViewCell.swift */; };
 		7C245F1120ED34EB0070E178 /* MainRecommendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C245F1020ED34EB0070E178 /* MainRecommendCollectionViewCell.swift */; };
@@ -99,7 +105,6 @@
 		7C60274A20E9E67F0010AF12 /* DoSignupSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C60274920E9E67F0010AF12 /* DoSignupSB.storyboard */; };
 		7C60275320E9F2A40010AF12 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60275220E9F2A40010AF12 /* WriteViewController.swift */; };
 		7C60275720E9F2B30010AF12 /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60275620E9F2B30010AF12 /* MypageViewController.swift */; };
-		7C60275920E9FB0D0010AF12 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60275820E9FB0D0010AF12 /* MainViewController.swift */; };
 		7C60275C20E9FBD00010AF12 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60275B20E9FBD00010AF12 /* LoginViewController.swift */; };
 		7C94DF4920EA3BDA00D23199 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94DF4820EA3BDA00D23199 /* SignupView.swift */; };
 		7C94DF4B20EB717B00D23199 /* AgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94DF4A20EB717B00D23199 /* AgeView.swift */; };
@@ -142,6 +147,13 @@
 		2F20B61520F7D0B200D56B8B /* WeatherApiProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApiProtocol.swift; sourceTree = "<group>"; };
 		2F20B61720F7D13600D56B8B /* UserApiProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApiProtocol.swift; sourceTree = "<group>"; };
 		2F20B61920F7EAAC00D56B8B /* BoardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardModel.swift; sourceTree = "<group>"; };
+		2F20B61B20F8034600D56B8B /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		2F20B61D20F818FD00D56B8B /* StyleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleButton.swift; sourceTree = "<group>"; };
+		2F20B62020F81C4700D56B8B /* ManButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManButton.swift; sourceTree = "<group>"; };
+		2F20B62220F81C8100D56B8B /* WomanButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomanButton.swift; sourceTree = "<group>"; };
+		2F20B62420F8427C00D56B8B /* StaticEventDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticEventDriver.swift; sourceTree = "<group>"; };
+		2F20B62620F84DBE00D56B8B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2F20B62820F8528700D56B8B /* StaticModelDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticModelDriver.swift; sourceTree = "<group>"; };
 		2F3C99A720EF6CD300D76953 /* SignupScrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScrollViewModel.swift; sourceTree = "<group>"; };
 		2F3C99A920EF6CEB00D76953 /* SignupScrollViewModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScrollViewModeling.swift; sourceTree = "<group>"; };
 		2F5806A620EE18E20064A3AC /* CharacterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterView.xib; sourceTree = "<group>"; };
@@ -185,7 +197,6 @@
 		2FE6A6CF20E8A5E300E1C9EE /* MainViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelDelegate.swift; sourceTree = "<group>"; };
 		2FE6A6D220E8A65700E1C9EE /* Start.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
 		4D768639A9B331BC70CB9B2F /* Pods-Weatherook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weatherook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Weatherook/Pods-Weatherook.debug.xcconfig"; sourceTree = "<group>"; };
-		7C245F0820ED30430070E178 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		7C245F0A20ED30760070E178 /* MainTableViewHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewHeaderCell.swift; sourceTree = "<group>"; };
 		7C245F0C20ED30C60070E178 /* MainboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainboardTableViewCell.swift; sourceTree = "<group>"; };
 		7C245F1020ED34EB0070E178 /* MainRecommendCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRecommendCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -210,7 +221,6 @@
 		7C60274920E9E67F0010AF12 /* DoSignupSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DoSignupSB.storyboard; sourceTree = "<group>"; };
 		7C60275220E9F2A40010AF12 /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
 		7C60275620E9F2B30010AF12 /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
-		7C60275820E9FB0D0010AF12 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7C60275B20E9FBD00010AF12 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7C94DF4820EA3BDA00D23199 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignupView.swift; path = Signup/SignupView.swift; sourceTree = "<group>"; };
 		7C94DF4A20EB717B00D23199 /* AgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeView.swift; sourceTree = "<group>"; };
@@ -302,6 +312,16 @@
 				2F20B61720F7D13600D56B8B /* UserApiProtocol.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		2F20B61F20F8190100D56B8B /* ToggleButton */ = {
+			isa = PBXGroup;
+			children = (
+				2F20B61D20F818FD00D56B8B /* StyleButton.swift */,
+				2F20B62020F81C4700D56B8B /* ManButton.swift */,
+				2F20B62220F81C8100D56B8B /* WomanButton.swift */,
+			);
+			path = ToggleButton;
 			sourceTree = "<group>";
 		};
 		2F5806AC20EE37CA0064A3AC /* View */ = {
@@ -423,6 +443,8 @@
 			children = (
 				2FBA168F20F35D0F00F82F98 /* EventDrivable.swift */,
 				2FBA169120F35DA900F82F98 /* EventDriver.swift */,
+				2F20B62420F8427C00D56B8B /* StaticEventDriver.swift */,
+				2F20B62820F8528700D56B8B /* StaticModelDriver.swift */,
 			);
 			path = EventDriver;
 			sourceTree = "<group>";
@@ -486,6 +508,7 @@
 		2FE6A6B820E8953000E1C9EE /* Weatherook */ = {
 			isa = PBXGroup;
 			children = (
+				2F20B61F20F8190100D56B8B /* ToggleButton */,
 				2F20B5EE20F77E8A00D56B8B /* TestKey */,
 				2F131EBA20F67E9900234CCC /* NetworkTask */,
 				2F1DFB0E20F67C2F00C18BEC /* Common */,
@@ -520,13 +543,13 @@
 		2FE6A6CC20E89E7200E1C9EE /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				7C245F0820ED30430070E178 /* MainTableViewController.swift */,
 				7C43D8F020F7C85E00F2F70F /* CollectionView */,
 				7C43D8F120F7C87300F2F70F /* TableView */,
 				7C43D8EF20F7C84A00F2F70F /* ScrollView */,
 				2FE6A6CD20E89EA200E1C9EE /* MainViewModel.swift */,
 				2FE6A6CF20E8A5E300E1C9EE /* MainViewModelDelegate.swift */,
-				7C60275820E9FB0D0010AF12 /* MainViewController.swift */,
+				2F20B61B20F8034600D56B8B /* MainTabBarViewController.swift */,
+				2F20B62620F84DBE00D56B8B /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -852,7 +875,7 @@
 				"${BUILT_PRODUCTS_DIR}/SwinjectAutoregistration/SwinjectAutoregistration.framework",
 				"${BUILT_PRODUCTS_DIR}/SwinjectStoryboard/SwinjectStoryboard.framework",
 				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
-				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
+				"${BUILT_PRODUCTS_DIR}/Toaster/Toaster.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -866,7 +889,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectAutoregistration.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectStoryboard.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toaster.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -907,6 +930,7 @@
 				7C47392520F645A600732C3A /* CommentTableViewCell.swift in Sources */,
 				2F20B60B20F7BC9F00D56B8B /* UserFollowingListModel.swift in Sources */,
 				2F20B60320F7AC3400D56B8B /* FollowModel.swift in Sources */,
+				2F20B61C20F8034600D56B8B /* MainTabBarViewController.swift in Sources */,
 				2FBA169220F35DA900F82F98 /* EventDriver.swift in Sources */,
 				2F730A4F20F648A400FC9DBD /* StyleModel.swift in Sources */,
 				2F131EC220F769C800234CCC /* CommentApi.swift in Sources */,
@@ -916,12 +940,12 @@
 				2F730A4E20F648A400FC9DBD /* BoardCommendModel.swift in Sources */,
 				2F131EBD20F7425C00234CCC /* SignApi.swift in Sources */,
 				7C94DF4920EA3BDA00D23199 /* SignupView.swift in Sources */,
-				7C245F0920ED30430070E178 /* MainTableViewController.swift in Sources */,
 				2F730A5520F648A400FC9DBD /* LikeModel.swift in Sources */,
 				2F730A4C20F648A400FC9DBD /* CommentModel.swift in Sources */,
 				2F20B5F020F77EA800D56B8B /* TestKey.swift in Sources */,
 				2F131EBF20F7686300234CCC /* CommonApi.swift in Sources */,
 				2F730A5620F648A400FC9DBD /* UserStyleModel.swift in Sources */,
+				2F20B62720F84DBE00D56B8B /* MainViewController.swift in Sources */,
 				2FBA169420F35E1700F82F98 /* NetworkDrivable.swift in Sources */,
 				2FE6A6BA20E8953000E1C9EE /* AppDelegate.swift in Sources */,
 				2F730A6620F648B600FC9DBD /* URLRequest+setDefaulf.swift in Sources */,
@@ -966,10 +990,14 @@
 				2F3C99A820EF6CD300D76953 /* SignupScrollViewModel.swift in Sources */,
 				2F20B5F420F79E5400D56B8B /* SignModel.swift in Sources */,
 				2F20B5FA20F7A30E00D56B8B /* WeatherCommentModel.swift in Sources */,
+				2F20B62320F81C8100D56B8B /* WomanButton.swift in Sources */,
+				2F20B62120F81C4700D56B8B /* ManButton.swift in Sources */,
 				7C245F0B20ED30760070E178 /* MainTableViewHeaderCell.swift in Sources */,
+				2F20B62520F8427C00D56B8B /* StaticEventDriver.swift in Sources */,
 				2F730A6A20F6504000FC9DBD /* TmpModel.swift in Sources */,
 				2FBA16A920F3782700F82F98 /* GallerManagerModeling.swift in Sources */,
 				7C43D91820F7D92900F2F70F /* FollowingCollectionViewCell.swift in Sources */,
+				2F20B61E20F818FD00D56B8B /* StyleButton.swift in Sources */,
 				7C43D8F920F7CA9000F2F70F /* MainCommentTableViewCell.swift in Sources */,
 				2F20B5F620F79FDA00D56B8B /* WeatherModel.swift in Sources */,
 				2F20B61020F7CEC200D56B8B /* SignApiProtocol.swift in Sources */,
@@ -980,9 +1008,9 @@
 				2FBA16A720F3781500F82F98 /* GalleryManager.swift in Sources */,
 				2FBA16A520F3777800F82F98 /* CameraManager.swift in Sources */,
 				7C60275720E9F2B30010AF12 /* MypageViewController.swift in Sources */,
+				2F20B62920F8528700D56B8B /* StaticModelDriver.swift in Sources */,
 				2F20B60720F7B96500D56B8B /* UserShowModel.swift in Sources */,
 				2F20B60520F7B0A500D56B8B /* UserNewsModel.swift in Sources */,
-				7C60275920E9FB0D0010AF12 /* MainViewController.swift in Sources */,
 				2FA9C0B120EE05C5005DF55E /* LoginViewModel.swift in Sources */,
 				2FBA16A220F374B700F82F98 /* LocationManagerModeling.swift in Sources */,
 				2F730A5420F648A400FC9DBD /* WeatherShowModel.swift in Sources */,

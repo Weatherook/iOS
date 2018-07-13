@@ -40,15 +40,23 @@
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="XTV-U1-U2w">
                             <rect key="frame" x="137.5" y="269" width="100" height="70"/>
                             <subviews>
-                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" image="joinWomanNo" translatesAutoresizingMaskIntoConstraints="NO" id="Y3d-aE-OB9">
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NcG-Pd-gfi" customClass="WomanButton" customModule="Weatherook" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="47" height="70"/>
-                                </imageView>
-                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" image="joinManNo" translatesAutoresizingMaskIntoConstraints="NO" id="dDO-5F-fpn">
+                                    <state key="normal" backgroundImage="joinWomanNo"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ARL-Fp-8ox" customClass="ManButton" customModule="Weatherook" customModuleProvider="target">
                                     <rect key="frame" x="53" y="0.0" width="47" height="70"/>
-                                </imageView>
+                                    <state key="normal" backgroundImage="joinManNo"/>
+                                </button>
                             </subviews>
                             <constraints>
+                                <constraint firstAttribute="trailing" secondItem="ARL-Fp-8ox" secondAttribute="trailing" id="43H-db-zYu"/>
+                                <constraint firstAttribute="bottom" secondItem="NcG-Pd-gfi" secondAttribute="bottom" id="DhI-Yn-xWb"/>
                                 <constraint firstAttribute="height" constant="70" id="cky-OK-cSD"/>
+                                <constraint firstItem="NcG-Pd-gfi" firstAttribute="leading" secondItem="XTV-U1-U2w" secondAttribute="leading" id="cvw-3k-1H5"/>
+                                <constraint firstItem="ARL-Fp-8ox" firstAttribute="top" secondItem="XTV-U1-U2w" secondAttribute="top" id="m2D-3k-fOZ"/>
+                                <constraint firstAttribute="bottom" secondItem="ARL-Fp-8ox" secondAttribute="bottom" id="n75-u7-Dcs"/>
+                                <constraint firstItem="NcG-Pd-gfi" firstAttribute="top" secondItem="XTV-U1-U2w" secondAttribute="top" id="pap-2O-HHL"/>
                                 <constraint firstAttribute="width" constant="100" id="uUY-fY-Cbp"/>
                             </constraints>
                         </stackView>
@@ -116,8 +124,8 @@
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
-                <outlet property="imgSignupMan" destination="dDO-5F-fpn" id="lvn-5n-7gz"/>
-                <outlet property="imgSingupWoman" destination="Y3d-aE-OB9" id="HHI-JP-IoU"/>
+                <outlet property="btnMan" destination="ARL-Fp-8ox" id="DPQ-yX-sTQ"/>
+                <outlet property="btnWoman" destination="NcG-Pd-gfi" id="0Ms-FG-9lW"/>
                 <outlet property="txtSignupHeight" destination="p39-So-uf2" id="Ihe-uF-jXd"/>
                 <outlet property="txtSignupWeight" destination="Vhe-1i-m8z" id="Kji-HW-z6G"/>
             </connections>

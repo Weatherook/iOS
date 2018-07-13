@@ -30,11 +30,25 @@ extension SwinjectStoryboard{
         defaultContainer.autoregister(UserApiProtocol.self, initializer: UserApi.init)
         
         
-        /*스토리보드 인젝션*/
-        defaultContainer.storyboardInitCompleted(SignupScrollViewController.self) { (r, c) in c.model = r~> } // 내려받는거
+        /*뷰모델 생성*/
         
+       
+        
+        /*스토리보드 인젝션*/
+        defaultContainer.storyboardInitCompleted(SignupScrollViewController.self) { (r, c) in
+            c.model = r~>
+        } // 내려받는거
+        defaultContainer.storyboardInitCompleted(LoginViewController.self) { (r, c) in
+            c.viewModel = r~>
+            c.commonApi = r~>
+            c.UserApi = r~>
+            c.signApi = r~>
+            c.weatherApi = r~>
+            c.boardApi = r~>
+        }
         /*뷰모델*/
         defaultContainer.autoregister(SignupScrollViewModeling.self, initializer: SignupScrollViewModel.init) // 올리는거
+        defaultContainer.autoregister(LoginViewModeling.self, initializer: LoginViewModel.init)
     }
 }
 

@@ -12,7 +12,7 @@ target 'Weatherook' do
   pod 'Alamofire'
   pod 'Kingfisher'
   pod 'Then'
-  pod 'Toast'
+  pod 'Toaster'
   pod 'Hero'
   pod 'Swinject'
   pod 'SwinjectStoryboard'

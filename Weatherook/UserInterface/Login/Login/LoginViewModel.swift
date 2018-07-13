@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+class LoginViewModel : LoginViewModeling{
+    var api: SignApiProtocol
+    init(api : SignApiProtocol) {
+        self.api = api
+    }
+}

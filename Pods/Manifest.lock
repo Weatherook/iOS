@@ -16,7 +16,7 @@ PODS:
   - SwinjectStoryboard (1.2.1):
     - Swinject (~> 2.3)
   - Then (2.3.0)
-  - Toast (4.0.0)
+  - Toaster (2.1.1)
 
 DEPENDENCIES:
   - Alamofire
@@ -29,7 +29,7 @@ DEPENDENCIES:
   - SwinjectAutoregistration
   - SwinjectStoryboard
   - Then
-  - Toast
+  - Toaster
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -43,7 +43,7 @@ SPEC REPOS:
     - SwinjectAutoregistration
     - SwinjectStoryboard
     - Then
-    - Toast
+    - Toaster
 
 SPEC CHECKSUMS:
   Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
@@ -56,8 +56,8 @@ SPEC CHECKSUMS:
   SwinjectAutoregistration: d06b56bd8f912b9fb9c59c15181342558a734b1b
   SwinjectStoryboard: de60d1d30fbf442fe90fc5c31d9fff89cf3ef64f
   Then: ee21c97b85ff6062b9b0080c9abb1eea46743345
-  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  Toaster: a6c9532de1ded8105e77376f7dffeb2e12b46dbb
 
-PODFILE CHECKSUM: 49a83f80acf6900d3f106c1f789edc5faaefe2f8
+PODFILE CHECKSUM: cda84100b1b26a5b89eec38b97a2eeb0b14b5d1f
 
 COCOAPODS: 1.5.0.beta.1

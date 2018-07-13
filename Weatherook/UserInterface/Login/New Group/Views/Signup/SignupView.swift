@@ -16,7 +16,6 @@ class SignupView: UIView {
     @IBOutlet weak var txtSignupPscf: UITextField!
     @IBOutlet weak var labelSignupInfo: UILabel!
     func getSignUpRx() -> (Observable<String?>,Observable<String?>,Observable<String?>){
-       
         return (txtSignupId.rx.text.asObservable(),
                  txtSignupPs.rx.text.asObservable(),
                  txtSignupPscf.rx.text.asObservable())

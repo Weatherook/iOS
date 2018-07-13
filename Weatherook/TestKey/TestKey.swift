@@ -8,4 +8,4 @@
 
 import Foundation
 
-let testLocation : [Float] = [37.558003,126,926377]
+let testLocation : [Float] = [37.507505, 127.045762]
